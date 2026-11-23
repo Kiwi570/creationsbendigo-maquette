@@ -1,15 +1,15 @@
 {
- "id": "20261123-170925-complet-cible-partiel",
- "date": "2026-11-23T17:13:13.556Z",
+ "id": "20261123-181257-complet-cible-partiel",
+ "date": "2026-11-23T18:13:45.313Z",
  "niveau": "complet",
- "pages": "/sculptures,/artiste,/toiles,/contact",
+ "pages": "/",
  "etapes": [
   "fichiers",
-  "mesures"
+  "mouvement"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 8,
+ "aRegarder": 1,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

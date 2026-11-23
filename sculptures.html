@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f2ebdf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -109,7 +109,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="sc-hero-texte">
     <p class="surtitre ouv-el" data-anime="gsap">Archives · 2004 à 2023</p>
     <h1 class="sc-hero-titre ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">Sculptures</span></span></h1>
-    <p class="sc-hero-intro ouv-el" data-anime="gsap">Les œuvres originales de Bendigo, taillées à la tronçonneuse dans le bois et dans la neige. Il ne sculpte plus sur commande depuis juin 2023 : ses images vivent aujourd&#39;hui en toiles.</p>
+    <p class="sc-hero-intro ouv-el" data-anime="gsap">Les œuvres originales de Bendigo, taillées à la tronçonneuse dans le bois et dans la neige. Il a cessé ses activités de sculpteur public en juin 2023 : ses images vivent aujourd&#39;hui en toiles.</p>
     <p class="actions ouv-el" data-anime="gsap"><a href="/toiles" class="bouton" data-libelle="Toiles" data-action-principale data-survol="magnetique">Voir les toiles</a></p>
     <p class="hero-info ouv-el" data-info-cle data-anime="gsap">Bois · souches · bancs · neige</p>
   </div>
@@ -156,8 +156,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
   <div class="conteneur bande-texte">
-    <p class="bande-chiffre" data-anime="lignes">Gardez 7 à 8 pieds</p>
-    <p data-anime>La hauteur qu&#39;il demandait pour sculpter une souche sur place.</p>
+    <div>
+      <p class="bande-chiffre" data-anime="lignes">Gardez 7 à 8 pieds</p>
+      <p data-anime>La hauteur qu&#39;il demandait pour sculpter une souche sur place.</p>
+    </div>
+    <figure class="bande-reel" data-anime>
+      <figure class="media " style="--cadrage:45% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/sculptures/tornade-minerve-1500.webp" srcset="/assets/images/sculptures/tornade-minerve-480.webp 480w, /assets/images/sculptures/tornade-minerve-800.webp 800w, /assets/images/sculptures/tornade-minerve-1200.webp 1200w, /assets/images/sculptures/tornade-minerve-1500.webp 1500w" sizes="(max-width: 760px) 70vw, 26vw" alt="Souches debout laissées par une tornade à La Minerve, le sculpteur à côté" width="1500" height="1125" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figcaption>Tornade à La Minerve : des souches debout, avant la sculpture.</figcaption>
+    </figure>
   </div>
 </section>
 <section class="avant-apres conteneur" id="avant-apres">
@@ -220,6 +230,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h2 data-anime="lignes">Bancs de jardin</h2>
     <p data-anime>Banc de jardin ou banc public, banc une place ou plus. Les possibilités sont infinies, ainsi que les formats.</p>
   </div>
+  <p class="glisser conteneur" aria-hidden="true">Faites glisser</p>
   <div class="rangee-fenetre" tabindex="0" role="region" aria-label="Bancs de jardin, défilement horizontal">
     <ul class="rangee-piste" data-effet="rangee" data-galerie>
       <li class="rangee-item rangee-item--banc"><figure class="media " style="--cadrage:50% 50%;aspect-ratio:4 / 3">
@@ -315,6 +326,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin fin--sombre fin--court" id="fin">
+  <svg class="trait-scie " viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true" data-fx="trace" data-grille="fil" data-visuel>
+<path d="M0 46 L1200 10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<path d="M0 50 L1200 14" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.2" stroke-dasharray="2 9" stroke-linecap="round"/></svg>
   <div class="conteneur fin-ligne">
     <div>
       <h2 data-anime="lignes">Ces œuvres existent en toile</h2>

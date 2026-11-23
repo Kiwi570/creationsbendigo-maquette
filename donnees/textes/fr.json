@@ -92,7 +92,8 @@
       "texte": "Bendigo a cessé ses activités de sculpteur public en juin 2023. Ses clients lui demandaient encore ses œuvres : il les propose désormais en toiles, en couleur ou en noir et blanc, pour la maison, le chalet ou le commerce.",
       "c1": "images en ligne à la fin d'août 2025",
       "c2": "images prévues au catalogue",
-      "c3": "po sur le plus grand côté, pour la plupart"
+      "c3": "po sur le plus grand côté, pour la plupart",
+      "alt": "Toile de dauphins de Bendigo, accrochée au-dessus d'un lit"
     },
     "collections": {
       "titre": "Trois collections",
@@ -103,7 +104,7 @@
     "toile": {
       "sur": "La toile",
       "titre": "Une vraie toile, de la face au dos",
-      "texte": "Faites défiler : la toile tourne sur elle-même.",
+      "texte": "Faites défiler : la toile tourne sur elle-même. Glissez dessus pour la faire pivoter.",
       "e1t": "L'image entière",
       "e1": "Imprimée à l'encre HP Latex, sans solvant et écoresponsable. Jusqu'à environ 55 po sur le plus grand côté.",
       "e2t": "Bordures miroir",
@@ -114,13 +115,15 @@
       "e4": "Chaque toile est signée au dos. Une toile non signée ne vient pas de l'atelier.",
       "note": "Lavable au linge doux et au savon · imprimée par un fournisseur québécois",
       "dos": "Signée au dos",
-      "alt": "Toile de Dragonlake, vue de face"
+      "alt": "Toile de Révolte cellulaire, vue de face"
     },
     "rangee": {
-      "titre": "Sur le mur, chez les clients",
-      "texte": "Notez le titre et les codes sous l'image : c'est tout ce qu'il faut pour commander.",
+      "titre": "Imaginez-la au mur",
+      "texte": "Des toiles et les mises en situation de Bendigo. Notez le titre et les codes sous l'image : c'est tout ce qu'il faut pour commander.",
       "region": "Toiles et mises en situation, défilement horizontal",
-      "tout": "Tout le catalogue"
+      "tout": "Tout le catalogue",
+      "decor": "Essayer une toile au mur",
+      "glisser": "Faites glisser"
     },
     "sculpteur": {
       "sur": "Sculpteur autodidacte",
@@ -128,7 +131,7 @@
       "texte": "Tout a commencé en 2004, lors d'un événement de sculpture sur neige. Puis le bois : des souches, des bancs de jardin, des sculptures monumentales et des démonstrations de sculpture rapide, jusqu'à la fin de ses activités de sculpteur public, en juin 2023.",
       "sculptures": "Voir les sculptures",
       "parcours": "Son parcours",
-      "alt": "Tête de tigre sculptée à la tronçonneuse"
+      "alt": "Bendigo assis sur un banc sculpté, entre deux grands totems de bois"
     },
     "commander": {
       "titre": "Commander en quatre étapes",
@@ -205,7 +208,7 @@
     "hero": {
       "sur": "Archives · 2004 à 2023",
       "titre": "Sculptures",
-      "texte": "Les œuvres originales de Bendigo, taillées à la tronçonneuse dans le bois et dans la neige. Il ne sculpte plus sur commande depuis juin 2023 : ses images vivent aujourd'hui en toiles.",
+      "texte": "Les œuvres originales de Bendigo, taillées à la tronçonneuse dans le bois et dans la neige. Il a cessé ses activités de sculpteur public en juin 2023 : ses images vivent aujourd'hui en toiles.",
       "action": "Voir les toiles",
       "info": "Bois · souches · bancs · neige"
     },
@@ -215,7 +218,8 @@
       "texte": "Lors d'un abattage, Bendigo conseillait de garder une souche de 7 à 8 pieds : il y faisait naître une idée, sur le terrain même.",
       "bandeTitre": "Gardez 7 à 8 pieds",
       "bandeTexte": "La hauteur qu'il demandait pour sculpter une souche sur place.",
-      "alt": "Une souche fraîchement coupée dans une clairière"
+      "alt": "Une souche fraîchement coupée dans une clairière",
+      "reel": "Tornade à La Minerve : des souches debout, avant la sculpture."
     },
     "avant": {
       "sur": "Avant, après",
@@ -232,7 +236,8 @@
     "bancs": {
       "titre": "Bancs de jardin",
       "texte": "Banc de jardin ou banc public, banc une place ou plus. Les possibilités sont infinies, ainsi que les formats.",
-      "region": "Bancs de jardin, défilement horizontal"
+      "region": "Bancs de jardin, défilement horizontal",
+      "glisser": "Faites glisser"
     },
     "neige": {
       "sur": "Sur neige",

@@ -1,0 +1,17 @@
+{
+ "id": "20261123-180133-complet-cible-partiel",
+ "date": "2026-11-23T18:04:39.389Z",
+ "niveau": "complet",
+ "pages": "/,/sculptures",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "films"
+ ],
+ "version": "2",
+ "echecs": 1,
+ "aRegarder": 3,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

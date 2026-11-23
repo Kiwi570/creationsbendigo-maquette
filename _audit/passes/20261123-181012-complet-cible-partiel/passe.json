@@ -1,0 +1,18 @@
+{
+ "id": "20261123-181012-complet-cible-partiel",
+ "date": "2026-11-23T18:12:42.122Z",
+ "niveau": "complet",
+ "pages": "/",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "mouvement",
+  "films"
+ ],
+ "version": "2",
+ "echecs": 1,
+ "aRegarder": 3,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

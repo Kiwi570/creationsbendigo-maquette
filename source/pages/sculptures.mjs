@@ -1,6 +1,7 @@
 /* Sculptures (archives) : ouverture scindée (ours géant de l'Ermitage), sur souche, avant / après,
    collection, bancs de jardin (rangée qui glisse), neige. */
 import { html } from '../../outils/gabarit.mjs';
+import { traitScie } from '../gabarits/trait.mjs';
 
 export const page = { cle: 'sculptures', fichier: 'sculptures', imagePartage: 'sculptures/ermitage-ours-1200.webp' };
 
@@ -32,8 +33,14 @@ export default (c) => {
 <section class="bande" id="sept-pieds">
   ${c.media({ nom: 'grok/souche-attente', alt: c.s('sculptures.souche.alt'), classe: 'bande-media', sizes: '100vw', attrs: 'data-fx="parallaxe"' })}
   <div class="conteneur bande-texte">
-    <p class="bande-chiffre" data-anime="lignes">${c.t('sculptures.souche.bandeTitre')}</p>
-    <p data-anime>${c.t('sculptures.souche.bandeTexte')}</p>
+    <div>
+      <p class="bande-chiffre" data-anime="lignes">${c.t('sculptures.souche.bandeTitre')}</p>
+      <p data-anime>${c.t('sculptures.souche.bandeTexte')}</p>
+    </div>
+    <figure class="bande-reel" data-anime>
+      ${c.media({ nom: 'sculptures/tornade-minerve', alt: 'Souches debout laissées par une tornade à La Minerve, le sculpteur à côté', sizes: '(max-width: 760px) 70vw, 26vw', ratio: '4 / 3', cadrage: '45% 50%' })}
+      <figcaption>${c.t('sculptures.souche.reel')}</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -67,6 +74,7 @@ export default (c) => {
     <h2 data-anime="lignes">${c.t('sculptures.bancs.titre')}</h2>
     <p data-anime>${c.t('sculptures.bancs.texte')}</p>
   </div>
+  <p class="glisser conteneur" aria-hidden="true">${c.t('sculptures.bancs.glisser')}</p>
   <div class="rangee-fenetre" tabindex="0" role="region" aria-label="${c.s('sculptures.bancs.region')}">
     <ul class="rangee-piste" data-effet="rangee" data-galerie>
       ${S.bancs.map((b) => html`<li class="rangee-item rangee-item--banc">${c.media({ nom: b.image, alt: b.titre, sizes: '(max-width: 760px) 80vw, 36vw', ratio: '4 / 3' })}<p class="rangee-legende"><strong>${b.titre}</strong></p></li>`)}
@@ -96,6 +104,7 @@ export default (c) => {
 </section>
 
 <section class="fin fin--sombre fin--court" id="fin">
+  ${traitScie()}
   <div class="conteneur fin-ligne">
     <div>
       <h2 data-anime="lignes">${c.t('sculptures.fin.titre')}</h2>

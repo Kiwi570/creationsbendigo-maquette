@@ -1,6 +1,7 @@
 /* Les toiles : catalogue filtrable, visionneuse, décor (la toile choisie posée au mur), fiche de la toile.
    Ouverture : un très grand titre, puis un bandeau de toiles (objet d'ouverture). */
 import { html } from '../../outils/gabarit.mjs';
+import { traitScie } from '../gabarits/trait.mjs';
 
 export const page = { cle: 'toiles', fichier: 'toiles', imagePartage: 'toiles/humanimal-nb-1200.webp' };
 
@@ -55,7 +56,7 @@ export default (c) => {
   <ul class="catalogue-grille" aria-label="${c.s('toiles.catalogue.region')}">
     ${toiles.map((t) => html`<li class="carte-toile" id="toile-${t.id}" data-id="${t.id}" data-collection="${t.collection}" data-version="${t.version}">
       <a class="carte-toile-image" href="${c.url('toiles', '', `voir=${t.id}`)}" data-voir="${t.id}" data-sans-transition aria-label="${c.s('commun.agrandir')} : ${t.titre}, ${libelleVersion(c, t.version)}">
-        ${c.media({ nom: t.image, alt: '', classe: 'toile', sizes: '(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw', ratio: t.ratio })}
+        ${c.media({ nom: t.image, alt: '', classe: 'toile', sizes: '(max-width: 760px) 40vw, (max-width: 1100px) 40vw, 26vw', ratio: t.ratio, attrs: 'data-survol="incline"' })}
       </a>
       <div class="carte-toile-texte">
         <h3>${t.titre}</h3>
@@ -109,6 +110,7 @@ export default (c) => {
 </section>
 
 <section class="fin fin--sombre fin--court" id="fin">
+  ${traitScie()}
   <div class="conteneur fin-ligne">
     <div>
       <h2 data-anime="lignes">${c.t('toiles.fin.titre')}</h2>

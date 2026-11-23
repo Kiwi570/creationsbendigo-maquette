@@ -2,7 +2,7 @@
    Le socle gère l'ouverture, les transitions, l'en-tête, le menu, les mesures et la bibliothèque d'effets.
    Effets propres (data-effet) : coup-de-scie (intro et voile), eventail, toile-3d, rangee, signature,
    catalogue, decor, avant-apres, cernes ; et la demande de toiles (liste partagée entre les pages). */
-import { demarrer, boucle, etat, quand, centreOuverture, suivre, lacher, bloquerDefilement, debloquerDefilement } from './socle/index.js?v=1';
+import { demarrer, boucle, etat, quand, centreOuverture, suivre, lacher, bloquerDefilement, debloquerDefilement } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -198,6 +198,61 @@ function sciure() {
       ctx.save(); ctx.globalAlpha = q.o; ctx.translate(x, y); ctx.rotate(q.r); ctx.fillStyle = q.c; ctx.fillRect(-q.l / 2, -q.h / 2, q.l, q.h); ctx.restore();
     }
   });
+}
+
+/* Les toiles de l'ouverture flottent doucement (ne tourne qu'à l'écran, après l'ouverture). */
+function flottement() {
+  const zone = $('.hero-toiles');
+  if (!zone || !gsap) return;
+  const toiles = $$('.hero-toile', zone);
+  const bases = [-6, 5, 0];
+  /* Pendant que la souris est sur l'ouverture, c'est elle qui fait bouger les toiles (relief) : le flottement s'arrête. */
+  let survol = false;
+  const hero = $('.hero');
+  if (hero && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    hero.addEventListener('pointermove', () => { survol = true; });
+    hero.addEventListener('pointerleave', () => { survol = false; });
+  }
+  quand('pret', () => {
+    boucle(zone, (dt, t) => {
+      if (survol) return;
+      toiles.forEach((el, i) => gsap.set(el, { y: Math.sin(t * 0.9 + i * 2.1) * 7, rotation: bases[i] + Math.sin(t * 0.6 + i * 1.7) * 0.8 }));
+    });
+  });
+}
+
+/* Les trois toiles de l'ouverture suivent la souris en relief (souris seulement). */
+function reliefOuverture() {
+  const z = $('.hero-toiles[data-souris]');
+  if (!z || !gsap || !matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  gsap.set(z, { transformPerspective: 1400, transformStyle: 'preserve-3d' });
+  const rx = gsap.quickTo(z, 'rotationX', { duration: 0.7, ease: 'power3.out' });
+  const ry = gsap.quickTo(z, 'rotationY', { duration: 0.7, ease: 'power3.out' });
+  const hero = $('.hero');
+  hero.addEventListener('pointermove', (e) => {
+    const r = hero.getBoundingClientRect();
+    ry(((e.clientX - r.left) / r.width - 0.5) * 10);
+    rx(-((e.clientY - r.top) / r.height - 0.5) * 7);
+  });
+  hero.addEventListener('pointerleave', () => { rx(0); ry(0); });
+}
+
+/* La toile 3D se fait aussi pivoter au doigt ou à la souris (puis revient en place avec un ressort). */
+function pivotToile() {
+  const p = $('.toile3d-pivot');
+  if (!p || !gsap) return;
+  let x0 = null, id = null;
+  p.addEventListener('pointerdown', (e) => { x0 = e.clientX; id = e.pointerId; gsap.killTweensOf(p); });
+  p.addEventListener('pointermove', (e) => {
+    if (x0 === null || e.pointerId !== id) return;
+    const dx = e.clientX - x0;
+    if (Math.abs(dx) > 6 && !p.hasPointerCapture(id)) p.setPointerCapture(id);
+    gsap.set(p, { rotationY: Math.max(-170, Math.min(170, dx * 0.6)) });
+  });
+  const lacherPivot = () => { if (x0 === null) return; x0 = null; gsap.to(p, { rotationY: 0, duration: 1.4, ease: 'elastic.out(1, 0.45)' }); };
+  p.addEventListener('pointerup', lacherPivot);
+  p.addEventListener('pointercancel', lacherPivot);
+  p.addEventListener('lostpointercapture', lacherPivot);
 }
 
 function bandeau() {
@@ -505,6 +560,9 @@ demarrer({
     eventail();
     sciure();
     bandeau();
+    reliefOuverture();
+    flottement();
+    pivotToile();
     parallaxes();
     toile3d();
     rangee();

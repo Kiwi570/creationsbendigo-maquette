@@ -1,6 +1,7 @@
 /* Contact et commande : ouverture plein cadre (l'atelier l'hiver) avec une carte de commande,
    ma demande (toiles choisies + courriel préparé), paiement et réception, questions fréquentes. */
 import { html } from '../../outils/gabarit.mjs';
+import { traitScie } from '../gabarits/trait.mjs';
 
 export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'grok/atelier-hiver-1280.webp' };
 
@@ -64,6 +65,7 @@ export default (c) => html`
 </section>
 
 <section class="fin fin--sombre fin--court" id="fin">
+  ${traitScie()}
   <div class="conteneur fin-ligne">
     <div>
       <h2 data-anime="lignes">${c.t('contact.fin.titre')}</h2>

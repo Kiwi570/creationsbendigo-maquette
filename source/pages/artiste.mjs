@@ -1,5 +1,6 @@
 /* L'artiste : portrait et « 2004 » géant, parcours en cernes, sculpture rapide, la signature du geste. */
 import { html } from '../../outils/gabarit.mjs';
+import { traitScie } from '../gabarits/trait.mjs';
 import { logoSvg } from '../gabarits/logo.mjs';
 
 export const page = { cle: 'artiste', fichier: 'artiste', imagePartage: 'benoit-1000.webp' };
@@ -10,6 +11,16 @@ function cerne(r, graine) {
     const a = (i / n) * Math.PI * 2;
     const o = 1 + 0.03 * Math.sin(a * 3 + graine) + 0.018 * Math.sin(a * 7 + graine * 1.7);
     pts.push(`${(200 + Math.cos(a) * r * o).toFixed(1)} ${(200 + Math.sin(a) * r * o * 0.95).toFixed(1)}`);
+  }
+  return 'M' + pts.join(' L') + 'Z';
+}
+
+function cerneMini(r, graine) {
+  const n = 40, pts = [];
+  for (let i = 0; i <= n; i++) {
+    const a = (i / n) * Math.PI * 2;
+    const o = 1 + 0.04 * Math.sin(a * 3 + graine);
+    pts.push(`${(32 + Math.cos(a) * r * o).toFixed(1)} ${(32 + Math.sin(a) * r * o * 0.95).toFixed(1)}`);
   }
   return 'M' + pts.join(' L') + 'Z';
 }
@@ -46,7 +57,7 @@ export default (c) => {
         <p data-anime>${c.t('artiste.parcours.texte')}</p>
       </div>
       <ol class="parcours-liste">
-        ${P.map((e) => html`<li class="parcours-entree" data-annee="${e.annee}"><p class="parcours-an">${e.annee}</p><h3>${e.titre}</h3><p>${e.texte}</p></li>`)}
+        ${P.map((e, i) => html`<li class="parcours-entree" data-annee="${e.annee}"><svg class="mini-cernes" viewBox="0 0 64 64" aria-hidden="true" data-fx="trace">${P.slice(0, i + 1).map((_, k) => html`<path d="${cerneMini(7 + k * 3.2, k * 1.3)}" fill="none" stroke-width="${k === i ? 2.2 : 1.2}" stroke-linecap="round"/>`)}</svg><p class="parcours-an">${e.annee}</p><h3>${e.titre}</h3><p>${e.texte}</p></li>`)}
       </ol>
     </div>
   </div>
@@ -76,6 +87,7 @@ export default (c) => {
 </section>
 
 <section class="fin fin--sombre fin--court" id="fin">
+  ${traitScie()}
   <div class="conteneur fin-ligne">
     <div>
       <h2 data-anime="lignes">${c.t('artiste.fin.titre')}</h2>

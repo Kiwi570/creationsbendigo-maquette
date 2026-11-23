@@ -3,6 +3,7 @@
    Chaque section a au moins un effet au défilement, visible aussi sur téléphone. */
 import { html } from '../../outils/gabarit.mjs';
 import { logoSvg } from '../gabarits/logo.mjs';
+import { traitScie } from '../gabarits/trait.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'toiles/dragonlake-1200.webp' };
 
@@ -13,10 +14,12 @@ const toile = (c, t, { classe = '', sizes = '(max-width: 760px) 60vw, 26vw', pri
 export default (c) => {
   const T = Object.fromEntries(c.donnees.toiles.map((t) => [t.id, t]));
   const rangee = [
-    { t: T['western-lover'] }, { d: 'decor/salon-clair', alt: 'Toile de Bendigo au-dessus d’un canapé gris, dans un salon clair', ratio: '2000 / 1333' },
-    { t: T['re-invention-tour-nb'] }, { t: T['dragonlake-nb'] }, { d: 'decor/aigle-entree', alt: 'Grande toile verticale d’un aigle sculpté, au-dessus d’un banc', ratio: '1397 / 2000' },
-    { t: T['revolte-cellulaire-nb'] }, { t: T['cliff-eagle-egg-mind'] }, { d: 'decor/foyer', alt: 'Toile de Bendigo au-dessus d’un foyer', ratio: '1892 / 1232' },
-    { t: T['divinementmains-nb'] }, { t: T['humanimal-nb'] },
+    { d: 'decor/salon-pierre', alt: 'Toile de Bendigo accrochée au mur de pierre d’un salon', ratio: '2000 / 1506' },
+    { t: T['dragonlake-nb'] },
+    { d: 'decor/aigle-entree', alt: 'Grande toile verticale d’un aigle sculpté, au-dessus d’un banc', ratio: '1397 / 2000' },
+    { t: T['cliff-eagle-egg-mind-nb'] },
+    { d: 'decor/foyer', alt: 'Toile de Bendigo au-dessus d’un foyer', ratio: '1892 / 1232' },
+    { d: 'decor/salon-clair', alt: 'Toile de Bendigo au-dessus d’un canapé gris, dans un salon clair', ratio: '2000 / 1333' },
   ];
   return html`
 <section class="hero" id="debut">
@@ -31,7 +34,7 @@ export default (c) => {
     </p>
     <p class="hero-info ouv-el" data-info-cle data-anime="gsap">${c.t('accueil.hero.info')}</p>
   </div>
-  <div class="hero-toiles" data-effet="eventail">
+  <div class="hero-toiles" data-effet="eventail" data-souris>
     ${toile(c, T['western-lover'], { classe: 'hero-toile hero-toile--1', sizes: '(max-width: 760px) 46vw, 22vw' })}
     ${toile(c, T['humanimal-nb'], { classe: 'hero-toile hero-toile--3', sizes: '(max-width: 760px) 46vw, 22vw' })}
     ${toile(c, T.dragonlake, { classe: 'hero-toile hero-toile--2', sizes: '(max-width: 760px) 70vw, 30vw', priorite: true, attrs: 'data-iris-centre' })}
@@ -49,7 +52,7 @@ export default (c) => {
       <li><strong data-compteur="55">55</strong> <span>${c.t('accueil.manifeste.c3')}</span></li>
     </ul>
   </div>
-  ${c.media({ nom: 'decor/salon-pierre', alt: 'Toile de Bendigo accrochée au mur de pierre d’un salon', classe: 'manifeste-media', sizes: '(max-width: 760px) 100vw, 46vw', ratio: '2000 / 1506', attrs: 'data-fx="parallaxe"' })}
+  ${c.media({ nom: 'decor/chambre', alt: c.s('accueil.manifeste.alt'), classe: 'manifeste-media', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1911 / 2000', attrs: 'data-fx="parallaxe"' })}
 </section>
 
 <section class="collections" id="collections">
@@ -77,9 +80,10 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('accueil.toile.titre')}</h2>
       <p class="toile3d-aide masque-ecran-bas">${c.t('accueil.toile.texte')}</p>
     </div>
-    <div class="toile3d-scene" data-effet="toile-3d" data-visuel>
+    <div class="toile3d-scene" data-effet="toile-3d" data-grille="manipuler" data-visuel>
+      <div class="toile3d-pivot">
       <div class="toile3d-objet">
-        <div class="t3-face t3-avant">${c.media({ nom: 'toiles/dragonlake', alt: c.s('accueil.toile.alt'), sizes: '(max-width: 760px) 80vw, 40vw', ratio: '4 / 3' })}</div>
+        <div class="t3-face t3-avant">${c.media({ nom: 'toiles/revolte-cellulaire-nb', alt: c.s('accueil.toile.alt'), sizes: '(max-width: 760px) 80vw, 40vw', ratio: '4 / 3' })}</div>
         <div class="t3-face t3-droite" aria-hidden="true"></div>
         <div class="t3-face t3-gauche" aria-hidden="true"></div>
         <div class="t3-face t3-haut" aria-hidden="true"></div>
@@ -89,6 +93,7 @@ export default (c) => {
           <span class="t3-traverse t3-traverse--h" aria-hidden="true"></span>
           <span class="t3-signature">${logoSvg({ classe: 'logo-dos' })}<span class="t3-signature-texte">${c.t('accueil.toile.dos')}</span></span>
         </div>
+      </div>
       </div>
     </div>
     <ol class="toile3d-etapes">
@@ -104,8 +109,9 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('accueil.rangee.titre')}</h2>
       <p data-anime>${c.t('accueil.rangee.texte')}</p>
     </div>
-    <p data-anime>${c.lien('toiles', { ancre: 'catalogue', classe: 'bouton bouton--contour', texte: c.t('accueil.rangee.tout') })}</p>
+    <p class="actions" data-anime>${c.lien('toiles', { ancre: 'decor', classe: 'lien-fleche', texte: c.t('accueil.rangee.decor') })} ${c.lien('toiles', { ancre: 'catalogue', classe: 'bouton bouton--contour', texte: c.t('accueil.rangee.tout') })}</p>
   </div>
+  <p class="glisser conteneur" aria-hidden="true">${c.t('accueil.rangee.glisser')}</p>
   <div class="rangee-fenetre" tabindex="0" role="region" aria-label="${c.s('accueil.rangee.region')}">
     <ul class="rangee-piste" data-effet="rangee" data-galerie>
       ${rangee.map((r) => r.t ? html`<li class="rangee-item rangee-item--toile">
@@ -119,7 +125,7 @@ export default (c) => {
 </section>
 
 <section class="sculpteur conteneur" id="sculpteur">
-  ${c.media({ nom: 'sculptures/souche-tigre', alt: c.s('accueil.sculpteur.alt'), classe: 'sculpteur-media', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3', attrs: 'data-fx="zoom"' })}
+  ${c.media({ nom: 'sculptures/envolee-litteraire', alt: c.s('accueil.sculpteur.alt'), classe: 'sculpteur-media', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '5 / 4', attrs: 'data-fx="zoom"' })}
   <div class="sculpteur-texte">
     <p class="surtitre" data-anime>${c.t('accueil.sculpteur.sur')}</p>
     <h2 data-anime="lignes">${c.t('accueil.sculpteur.titre')}</h2>
@@ -154,6 +160,7 @@ export default (c) => {
 </section>
 
 <section class="fin fin--sombre" id="fin">
+  ${traitScie()}
   <div class="conteneur fin-grille">
     <div class="fin-signature" data-effet="signature">${logoSvg({ classe: 'logo-fin', titre: c.site.nom })}</div>
     <div class="fin-texte">
