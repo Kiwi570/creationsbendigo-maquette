@@ -1,0 +1,345 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Commander une toile",
+    "appeler": "Appeler",
+    "ecrire": "Écrire",
+    "maDemande": "Ma demande",
+    "facebook": "Créations Bendigo sur Facebook",
+    "sommaire": "Sommaire",
+    "confort": "Confort de lecture",
+    "retourHaut": "Retour en haut",
+    "piedTexte": "Toiles imprimées des sculptures et tableaux de Benoit Sauvageau, dit Bendigo. Produit 100 % québécois.",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "maquette": "Maquette de présentation : la demande prépare un courriel, rien n'est envoyé par le site.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Le Magicien à la tronçonneuse",
+    "ajouter": "Ajouter à ma demande",
+    "ajoutee": "Dans ma demande",
+    "agrandir": "Agrandir",
+    "couleur": "Couleur",
+    "nb": "Noir et blanc",
+    "codes": "Codes",
+    "fermerVisionneuse": "Fermer l'image",
+    "precedente": "Image précédente",
+    "suivante": "Image suivante"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Créations Bendigo : toiles d'œuvres réelles du Magicien à la tronçonneuse",
+      "description": "Sculptures sur bois, sur neige et tableaux au pointillisme de Bendigo, imprimés sur toile jusqu'à 55 po, signés au dos. Produit 100 % québécois.",
+      "nav": "Accueil",
+      "partageAlt": "Créations Bendigo : trois toiles, un banc sculpté, un dragon de neige et un tableau au pointillisme",
+      "accroche": "Le Magicien à la tronçonneuse"
+    },
+    "toiles": {
+      "titre": "Les toiles : catalogue de Créations Bendigo",
+      "description": "Sculptures sur bois, sur neige, tableaux et murales au pointillisme : choisissez l'image, la version couleur ou noir et blanc, et préparez votre demande.",
+      "nav": "Toiles",
+      "partageAlt": "Catalogue des toiles de Créations Bendigo",
+      "accroche": "Le catalogue des toiles"
+    },
+    "sculptures": {
+      "titre": "Sculptures : les archives de Bendigo, sur bois et sur neige",
+      "description": "Souches sculptées, collection, bancs de jardin et sculptures sur neige : les œuvres originales de Bendigo, de 2004 à 2023.",
+      "nav": "Sculptures",
+      "partageAlt": "Ours géant sculpté dans une souche par Bendigo",
+      "accroche": "Les sculptures, de 2004 à 2023"
+    },
+    "artiste": {
+      "titre": "L'artiste : Benoit Sauvageau, dit Bendigo",
+      "description": "Sculpteur autodidacte à la tronçonneuse depuis 2004, surnommé « Le Magicien à la tronçonneuse » : son parcours, ses spectacles, ses toiles.",
+      "nav": "L'artiste",
+      "partageAlt": "Portrait de Benoit Sauvageau, dit Bendigo",
+      "accroche": "Bendigo, depuis 2004"
+    },
+    "contact": {
+      "titre": "Commander une toile : Créations Bendigo",
+      "description": "Votre demande de toile par courriel, paiement par virement Interac ou comptant, ramassage à l'atelier ou livraison.",
+      "nav": "Contact",
+      "partageAlt": "Petit atelier de bois dans la forêt enneigée",
+      "accroche": "Commander une toile"
+    },
+    "404": {
+      "titre": "Page introuvable : Créations Bendigo",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Une bûche sciée de travers",
+      "accroche": "Coupe de travers"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "sur": "Benoit Sauvageau, dit Bendigo",
+      "titre1": "Le Magicien",
+      "titre2": "à la",
+      "titre3": "tronçonneuse",
+      "texte": "Ses sculptures sur bois, sur neige et ses tableaux au pointillisme, imprimés sur toile. Des œuvres réelles, sans intelligence artificielle, signées au dos.",
+      "action": "Voir les toiles",
+      "action2": "Comment commander",
+      "info": "Jusqu'à 55 po · 100 % québécois"
+    },
+    "manifeste": {
+      "sur": "Depuis juin 2023",
+      "titre": "Mettez de la vie dans votre environnement avec une toile d'œuvre réelle.",
+      "texte": "Bendigo a cessé ses activités de sculpteur public en juin 2023. Ses clients lui demandaient encore ses œuvres : il les propose désormais en toiles, en couleur ou en noir et blanc, pour la maison, le chalet ou le commerce.",
+      "c1": "images en ligne à la fin d'août 2025",
+      "c2": "images prévues au catalogue",
+      "c3": "po sur le plus grand côté, pour la plupart"
+    },
+    "collections": {
+      "titre": "Trois collections",
+      "texte": "Choisissez une œuvre, puis sa version : en couleur ou en noir et blanc.",
+      "voir": "Voir la collection",
+      "images": "images"
+    },
+    "toile": {
+      "sur": "La toile",
+      "titre": "Une vraie toile, de la face au dos",
+      "texte": "Faites défiler : la toile tourne sur elle-même.",
+      "e1t": "L'image entière",
+      "e1": "Imprimée à l'encre HP Latex, sans solvant et écoresponsable. Jusqu'à environ 55 po sur le plus grand côté.",
+      "e2t": "Bordures miroir",
+      "e2": "L'image se prolonge en miroir sur les côtés : rien n'est coupé sur la face.",
+      "e3t": "Un cadre rigide",
+      "e3": "MDF de 1,5 po de profondeur et de 3/4 po d'épaisseur.",
+      "e4t": "Signée au dos",
+      "e4": "Chaque toile est signée au dos. Une toile non signée ne vient pas de l'atelier.",
+      "note": "Lavable au linge doux et au savon · imprimée par un fournisseur québécois",
+      "dos": "Signée au dos",
+      "alt": "Toile de Dragonlake, vue de face"
+    },
+    "rangee": {
+      "titre": "Sur le mur, chez les clients",
+      "texte": "Notez le titre et les codes sous l'image : c'est tout ce qu'il faut pour commander.",
+      "region": "Toiles et mises en situation, défilement horizontal",
+      "tout": "Tout le catalogue"
+    },
+    "sculpteur": {
+      "sur": "Sculpteur autodidacte",
+      "titre": "Dix-neuf ans de copeaux",
+      "texte": "Tout a commencé en 2004, lors d'un événement de sculpture sur neige. Puis le bois : des souches, des bancs de jardin, des sculptures monumentales et des démonstrations de sculpture rapide, jusqu'à la fin de ses activités de sculpteur public, en juin 2023.",
+      "sculptures": "Voir les sculptures",
+      "parcours": "Son parcours",
+      "alt": "Tête de tigre sculptée à la tronçonneuse"
+    },
+    "commander": {
+      "titre": "Commander en quatre étapes",
+      "texte": "Pas de commande sur le site : tout se règle par courriel, avec Bendigo.",
+      "e1t": "Choisissez",
+      "e1": "Notez le titre de l'image et ses codes (mod, tag, NB, 3D).",
+      "e2t": "Écrivez",
+      "e2": "Envoyez votre choix par courriel, avec la taille souhaitée.",
+      "e3t": "Bendigo confirme",
+      "e3": "Il valide la commande avec vous, puis la passe à son imprimeur québécois.",
+      "e4t": "Recevez",
+      "e4": "Ramassage à l'atelier, livraison par Bendigo ou par transporteur.",
+      "paiement": "Paiement par virement Interac ou en argent comptant.",
+      "action": "Préparer ma demande"
+    },
+    "fin": {
+      "titre1": "Une œuvre réelle,",
+      "titre2": "chez vous.",
+      "texte": "Écrivez à Bendigo avec le titre de votre toile : il vous répond par courriel.",
+      "action": "Préparer ma demande",
+      "action2": "Voir les toiles"
+    }
+  },
+  "toiles": {
+    "hero": {
+      "sur": "Catalogue",
+      "titre": "Les toiles",
+      "texte": "Sculptures sur bois, sur neige, tableaux au pointillisme : choisissez l'image, sa version en couleur ou en noir et blanc, et ajoutez-la à votre demande.",
+      "action": "Parcourir le catalogue",
+      "info": "Jusqu'à 55 po · signées au dos"
+    },
+    "catalogue": {
+      "titre": "Choisir une toile",
+      "selection": "Une sélection de 9 images parmi les 128 en ligne. Vous cherchez une œuvre précise ? Écrivez à Bendigo avec son titre.",
+      "collection": "Collection",
+      "version": "Version",
+      "toutes": "Toutes",
+      "bois": "Sculptures sur bois",
+      "neige": "Sculptures sur neige",
+      "tableaux": "Tableaux et murales",
+      "resultat": "{n} toiles affichées",
+      "resultat1": "1 toile affichée",
+      "aucune": "Aucune toile dans cette sélection.",
+      "codesAide": "NB : noir et blanc. Les codes mod, tag et 3D se recopient tels quels dans votre courriel.",
+      "region": "Catalogue des toiles"
+    },
+    "decor": {
+      "sur": "Dans votre décor",
+      "titre": "Essayez une toile au mur",
+      "texte": "Choisissez une toile : elle prend place au-dessus du canapé. Les proportions sont indicatives, la taille se choisit avec Bendigo.",
+      "choix": "Toile au mur",
+      "alt": "Salon de chalet, mur de planches clair au-dessus d'un canapé",
+      "miseTitre": "Mises en situation par Bendigo",
+      "miseTexte": "Ses propres montages, pour imaginer la taille et l'effet d'une toile."
+    },
+    "fiche": {
+      "titre": "La toile, en détail",
+      "l1": "Toile imprimée sur canevas, en couleur ou en noir et blanc",
+      "l2": "Jusqu'à environ 55 po sur le plus grand côté ; sinon, Bendigo indique la taille maximale",
+      "l3": "Cadre en MDF rigide de 1,5 po de profondeur et de 3/4 po d'épaisseur",
+      "l4": "Bordures miroir : l'image entière reste visible sur la face",
+      "l5": "Encre HP Latex sans solvant, écoresponsable",
+      "l6": "Lavable au linge doux et au savon",
+      "l7": "Signée au dos, imprimée par un fournisseur québécois",
+      "prix": "Prix confirmé par courriel avec votre commande."
+    },
+    "fin": {
+      "titre": "Votre sélection est prête ?",
+      "texte": "Les toiles ajoutées vous attendent dans votre demande. Il ne reste qu'à préparer le courriel.",
+      "action": "Voir ma demande"
+    }
+  },
+  "sculptures": {
+    "hero": {
+      "sur": "Archives · 2004 à 2023",
+      "titre": "Sculptures",
+      "texte": "Les œuvres originales de Bendigo, taillées à la tronçonneuse dans le bois et dans la neige. Il ne sculpte plus sur commande depuis juin 2023 : ses images vivent aujourd'hui en toiles.",
+      "action": "Voir les toiles",
+      "info": "Bois · souches · bancs · neige"
+    },
+    "souche": {
+      "sur": "Sur souche",
+      "titre": "Un arbre tombe, une sculpture se lève",
+      "texte": "Lors d'un abattage, Bendigo conseillait de garder une souche de 7 à 8 pieds : il y faisait naître une idée, sur le terrain même.",
+      "bandeTitre": "Gardez 7 à 8 pieds",
+      "bandeTexte": "La hauteur qu'il demandait pour sculpter une souche sur place.",
+      "alt": "Une souche fraîchement coupée dans une clairière"
+    },
+    "avant": {
+      "sur": "Avant, après",
+      "titre": "Ouverture éclaire d'un songe",
+      "texte": "Le même tronc, debout sur l'herbe, puis taillé : la trace de la tronçonneuse, de la meuleuse et de la perceuse reste visible dans le mouvement.",
+      "glisser": "Faites glisser pour comparer",
+      "avant": "Avant",
+      "apres": "Après"
+    },
+    "collection": {
+      "titre": "La collection",
+      "texte": "Des formes fusionnées en une seule pièce fluide : c'est la signature de Bendigo."
+    },
+    "bancs": {
+      "titre": "Bancs de jardin",
+      "texte": "Banc de jardin ou banc public, banc une place ou plus. Les possibilités sont infinies, ainsi que les formats.",
+      "region": "Bancs de jardin, défilement horizontal"
+    },
+    "neige": {
+      "sur": "Sur neige",
+      "titre": "Elles attirent l'attention et rapprochent les gens",
+      "texte": "Festivals, carnavals, rues commerciales : ses sculptures de neige rappelaient l'enfance et réunissaient les passants. Bendigo n'accepte plus de contrats depuis l'automne 2019 : il ne sculpte plus la neige que pour le plaisir.",
+      "alt": "Un bloc de neige tassée, prêt à sculpter, à l'heure bleue",
+      "galerie": "Quelques sculptures de neige"
+    },
+    "fin": {
+      "titre": "Ces œuvres existent en toile",
+      "texte": "Sculptures sur bois, sur neige et tableaux : choisissez votre image dans le catalogue.",
+      "action": "Voir les toiles"
+    }
+  },
+  "artiste": {
+    "hero": {
+      "sur": "Benoit Sauvageau",
+      "titre": "Bendigo",
+      "texte": "Sculpteur autodidacte à la tronçonneuse, surnommé « Le Magicien à la tronçonneuse ». Il a commencé en 2004, lors d'un événement de sculpture sur neige.",
+      "action": "Voir ses toiles",
+      "info": "Sculpteur public de 2004 à 2023",
+      "annee": "2004"
+    },
+    "parcours": {
+      "titre": "Le parcours, cerne par cerne",
+      "texte": "Comme dans un tronc, chaque année laisse sa trace. Extraits de son journal « Le Mont-Réel » et de son site."
+    },
+    "rapide": {
+      "titre": "Sculpture rapide et spectacles",
+      "texte": "Jusqu'à l'été 2020, Bendigo offrait des spectacles et des démonstrations de sculpture rapide, des sculptures personnalisées, des ateliers d'initiation et des symposiums. Parmi ses vidéos : un hibou sculpté en 5 minutes.",
+      "citation": "Toutes les idées ont un potentiel, car tous les budgets aussi ont un potentiel !",
+      "alt": "Démonstration de sculpture devant un restaurant"
+    },
+    "geste": {
+      "titre": "Une signature dans le mouvement",
+      "texte": "Il sculpte de façon intuitive, à la tronçonneuse, à la meuleuse et à la perceuse : chaque passage laisse une trace de mouvement. Ses titres jouent avec les mots, comme ses formes jouent avec le bois.",
+      "facebook": "Suivre Bendigo sur Facebook"
+    },
+    "fin": {
+      "titre": "Ses œuvres, chez vous",
+      "texte": "Les sculptures ne se commandent plus, les toiles oui.",
+      "action": "Voir les toiles"
+    }
+  },
+  "contact": {
+    "hero": {
+      "sur": "Contact et commande",
+      "titre": "Commander une toile",
+      "texte": "Choisissez vos toiles, Bendigo confirme tout par courriel. Paiement par virement Interac ou en argent comptant.",
+      "action": "Préparer ma demande",
+      "info": "creationsbendigo@hotmail.com"
+    },
+    "demande": {
+      "titre": "Ma demande",
+      "texte": "Vos toiles, vos coordonnées : le courriel se prépare tout seul.",
+      "vide": "Aucune toile pour l'instant.",
+      "videLien": "Choisir dans le catalogue",
+      "retirer": "Retirer",
+      "nom": "Votre nom",
+      "courriel": "Votre courriel",
+      "ville": "Ville ou région",
+      "taille": "Taille ou espace à couvrir",
+      "tailleAide": "Exemple : mur de 60 po au-dessus d'un canapé",
+      "reception": "Réception",
+      "r1": "Ramassage à l'atelier",
+      "r2": "Livraison par Bendigo",
+      "r3": "Transporteur",
+      "message": "Message",
+      "messageAide": "Un titre que vous cherchez, une question sur la taille…",
+      "preparer": "Préparer le courriel",
+      "copier": "Copier la demande",
+      "copiee": "Demande copiée",
+      "apres": "Votre logiciel de courriel s'ouvre avec la demande prête. Rien n'est envoyé tant que vous ne cliquez pas sur Envoyer.",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "erreurNom": "Indiquez votre nom.",
+      "erreurCourriel": "Indiquez un courriel valide, par exemple nom@exemple.com.",
+      "sujet": "Demande de toile",
+      "aucuneToile": "aucune toile choisie pour l'instant",
+      "ecrireDirect": "Ou écrivez directement à",
+      "ouvrir": "Ouvrir mon courriel"
+    },
+    "reception": {
+      "titre": "Paiement et réception",
+      "p1t": "Paiement",
+      "p1": "Virement Interac ou argent comptant.",
+      "p2t": "Ramassage à l'atelier",
+      "p2": "Si la toile est déjà en inventaire, vous pouvez la chercher à l'atelier.",
+      "p3t": "Livraison par Bendigo",
+      "p3": "Si la distance est raisonnable : 0,50 $ du kilomètre, aller-retour.",
+      "p3ex": "Exemple : à 20 km de l'atelier, 40 km aller-retour, 20 $.",
+      "p4t": "Transporteur",
+      "p4": "Si la distance pose problème : livraison prépayée par transporteur."
+    },
+    "faq": {
+      "titre": "Questions fréquentes"
+    },
+    "fin": {
+      "titre": "Encore à choisir ?",
+      "texte": "Le catalogue vous attend : bois, neige, tableaux.",
+      "action": "Voir les toiles"
+    }
+  },
+  "p404": {
+    "titre": "Coupe de travers",
+    "texte": "Cette page n'existe pas ou plus. La scie a dévié : reprenons au bon endroit.",
+    "accueil": "Retour à l'accueil",
+    "toiles": "Voir les toiles",
+    "alt": "Une bûche sciée de travers, des copeaux autour"
+  }
+}

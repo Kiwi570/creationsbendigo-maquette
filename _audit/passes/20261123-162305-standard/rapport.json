@@ -1,0 +1,1457 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.5 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.toile3d-objet > div.t3-face.t3-dos:nth-of-type(6) > span.t3-signature:nth-of-type(3) > span.t3-signature-texte « SIGNÉE AU DOS »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(1) « Le Magicien »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(1) > span.hero-ligne « Le Magicien »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(2) « à la »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(2) > span.hero-ligne « à la »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(3) « tronçonneuse »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(3) > span.hero-ligne.accent « tronçonneuse »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "42 × 44 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(2) > a « Toiles »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#sur-le-mur > div.rangee-fenetre:nth-of-type(2) « Western Lover mod tag Re Invention Tour mod tag 3D »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "ul.rangee-piste > li.rangee-item.rangee-item--toile:nth-of-type(3) > p.rangee-legende > strong « Re Invention Tour »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"] ; a[href$=\"sculptures\"][data-libelle=\"Sculptures\"][data-survol=\"magnetique\"] ; .commander-pied > a[data-survol=\"magnetique\"][href$=\"contact#demande\"][data-libelle=\"Contact\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#sur-le-mur > div.rangee-fenetre:nth-of-type(2) « Western Lover mod tag Re Invention Tour mod tag 3D »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.rangee-piste > li.rangee-item.rangee-item--toile:nth-of-type(3) > p.rangee-legende > span.code « mod tag 3D NB »",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"] ; a[data-action-principale=\"\"] ; a[href$=\"sculptures\"][data-libelle=\"Sculptures\"][data-survol=\"magnetique\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.p404-texte > p.actions.ouv-el:nth-of-type(2) > a.bouton:nth-of-type(1) « Retour à l'accueil »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.p404-texte > p.hero-info.ouv-el:nth-of-type(3) « creationsbendigo@hotmail.com »",
+      "lieux": [
+        "320×568 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "42 × 44 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(2) > a « Toiles »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.p404-texte > h1.ouv-titre > span.ligne-masque « Coupe de travers »",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.p404-texte > h1.ouv-titre > span.ligne-masque > span.hero-ligne « Coupe de travers »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"] ; a[data-action-principale=\"\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "42 × 44 px",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(2) > a « Toiles »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut « 2004 BENOIT SAUVAGEAU Bendigo Sculpteur autodidact »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.ar-hero-texte > h1.ar-hero-titre.ouv-titre > span.ligne-masque « Bendigo »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.ar-hero-texte > h1.ar-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Bendigo »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.15:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut « 2004 BENOIT SAUVAGEAU Bendigo Voir ses toiles Scul »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "320×568 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.parcours-grille > div.parcours-texte:nth-of-type(2) > div.tete-section > h2 « Le parcours, cerne par cerne »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ar-hero-texte > h1.ar-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Bendigo »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ar-hero-texte > p.actions.ouv-el:nth-of-type(3) > a.bouton « Voir ses toiles »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ar-hero-texte > p.hero-info.ouv-el:nth-of-type(4) « Sculpteur public de 2004 à 2023 »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"] ; .actions.vu[data-anime=\"\"] > a[data-survol=\"magnetique\"][href$=\"toiles\"][data-libelle=\"Toiles\"] ; div[data-barre-fixe=\"\"] > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ar-hero-texte > p.ar-hero-intro.ouv-el:nth-of-type(2) « Sculpteur autodidacte à la tronçonneuse, surnommé  »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > p.ar-annee « 2004 »",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ar-hero-texte > h1.ar-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Bendigo »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ar-hero-texte > p.surtitre.ouv-el:nth-of-type(1) « BENOIT SAUVAGEAU »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"] ; a[data-action-principale=\"\"] ; .actions.vu[data-anime=\"\"] > a[data-survol=\"magnetique\"][data-souris=\"\"][href$=\"toiles\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "42 × 44 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(2) > a « Toiles »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par div.conteneur.ct-hero-zone > div.ct-carte.ouv-visuel > h1.ct-hero-titre.ouv-titre > span.ligne-masque « Commander une toile »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.ct-carte.ouv-visuel > h1.ct-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Commander une toile »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": ".actions.ouv-el[data-anime=\"gsap\"] > a[href$=\"#demande\"] ; button[type=\"submit\"] ; a[data-survol=\"magnetique\"][href$=\"toiles\"][data-libelle=\"Toiles\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ct-hero-zone > div.ct-carte.ouv-visuel > p.hero-info.ct-courriel:nth-of-type(4) « creationsbendigo@hotmail.com »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".actions.ouv-el[data-anime=\"gsap\"] > a[href$=\"#demande\"] ; button[type=\"submit\"] ; a[data-survol=\"magnetique\"][data-souris=\"\"][href$=\"toiles\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "42 × 44 px",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(2) > a « Toiles »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.sc-hero-texte > h1.sc-hero-titre.ouv-titre > span.ligne-masque « Sculptures »",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.sc-hero-texte > h1.sc-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Sculptures »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#bancs > div.rangee-fenetre:nth-of-type(2) « Fée sur un champignon Chat dans son fauteuil Banc  »",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "ul.rangee-piste > li.rangee-item.rangee-item--banc:nth-of-type(2) > p.rangee-legende > strong « Chat dans son fauteuil »",
+      "lieux": [
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"] ; .actions.vu[data-anime=\"\"] > a[data-survol=\"magnetique\"][href$=\"toiles\"][data-libelle=\"Toiles\"] ; div[data-barre-fixe=\"\"] > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "page large de 1539 px pour un écran de 1366 px",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "body#haut > div:nth-of-type(1) > span.voile-trait",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "dépasse aussi à droite",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#souche > ul.mosaique.fx-fini > li:nth-of-type(3) > figure.media « Souche sculptée, détail »",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "dépasse aussi à droite",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#souche > ul.mosaique.fx-fini > li:nth-of-type(5) > figure.media « Souches sculptées »",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.sc-hero-texte > h1.sc-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Sculptures »",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.sc-hero-texte > p.surtitre.ouv-el:nth-of-type(1) « ARCHIVES · 2004 À 2023 »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "sculptures/neige-eglise (3/5, faible, 27 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.neige-grands.fx-fini > figure.media:nth-of-type(2) > picture > img « Deux figures de neige adossées, devant une église, »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"] ; a[data-action-principale=\"\"] ; .actions.vu[data-anime=\"\"] > a[data-survol=\"magnetique\"][data-souris=\"\"][href$=\"toiles\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "dépasse aussi à droite",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#souche > ul.mosaique > li:nth-of-type(3) > figure.media « Souche sculptée, détail »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "dépasse aussi à droite",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#souche > ul.mosaique > li:nth-of-type(5) > figure.media « Souches sculptées »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.conteneur.toiles-hero-tete:nth-of-type(1) > h1.toiles-hero-titre.ouv-titre > span.ligne-masque « Les toiles »",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur.toiles-hero-tete:nth-of-type(1) > h1.toiles-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Les toiles »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.toiles-hero-tete:nth-of-type(1) > h1.toiles-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Les toiles »",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.toiles-hero-tete:nth-of-type(1) > p.surtitre.ouv-el « CATALOGUE »",
+      "lieux": [
+        "768×1024 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.conteneur.toiles-hero-tete:nth-of-type(1) > div.toiles-hero-bas > p.toiles-hero-texte.ouv-el:nth-of-type(1) « Sculptures sur bois, sur neige, tableaux au pointi »",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur.toiles-hero-tete:nth-of-type(1) > h1.toiles-hero-titre.ouv-titre > span.ligne-masque > span.hero-ligne « Les toiles »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.41:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#decor > div.conteneur.decor-grille:nth-of-type(1) > div.decor-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « DANS VOTRE DÉCOR »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "42 × 44 px",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(2) > a « Toiles »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[href$=\"#catalogue\"] ; .surtitre.vu[data-anime=\"\"] ; a[data-survol=\"magnetique\"][href$=\"contact#demande\"][data-libelle=\"Contact\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"contact#demande\"][data-libelle=\"Contact\"] ; a[href$=\"#catalogue\"] ; .surtitre.vu[data-anime=\"\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "page large de 347 px — largeurs : 320, 800, 840 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "balayage 320–1920",
+      "mode": "normal",
+      "lieux": [
+        "balayage 320–1920 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "page large de 391 px — largeurs : 320 à 1760 px (37 largeurs)",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "balayage 320–1920",
+      "mode": "normal",
+      "lieux": [
+        "balayage 320–1920 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "journal du projet",
+      "detail": "aucune entrée pour la version 1 de donnees/site.json",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : l’intro ne finit pas sur la page (point 2)",
+      "detail": "versObjet(tl, …) absent de assets/js : l’intro doit finir sur l’objet d’ouverture (socle : import { versObjet } from './socle/index.js')",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#commander « Commander en quatre étapes Pas de commande sur le  »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.toile3d-objet > div.t3-face.t3-dos:nth-of-type(6) > span.t3-signature:nth-of-type(3) > span.t3-signature-texte « SIGNÉE AU DOS »",
+      "lieux": [
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.rangee-piste > li.rangee-item.rangee-item--toile:nth-of-type(3) > p.rangee-legende > span.code « mod tag 3D NB »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.p404-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin « Ses œuvres, chez vous Les sculptures ne se command »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/artiste",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#sculpture-rapide > div.rapide-texte:nth-of-type(2) > blockquote.citation > p « « Toutes les idées ont un potentiel, car tous les  »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#demande « Ma demande Vos toiles, vos coordonnées : le courri »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#reception « Paiement et réception 01 Paiement Virement Interac »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#faq « Questions fréquentes Que veut dire NB ? Et les cod »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin « Encore à choisir ? Le catalogue vous attend : bois »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.ct-hero-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin « Ces œuvres existent en toile Sculptures sur bois,  »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#sept-pieds > figure.media.bande-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#neige > div.neige-tete:nth-of-type(1) > figure.media.neige-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#fin « Votre sélection est prête ? Les toiles ajoutées vo »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "li#toile-re-invention-tour-nb > div.carte-toile-texte > p.carte-toile-meta > span.code:nth-of-type(2) « mod tag 3D NB »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/toiles",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.decor-grille:nth-of-type(1) > div.decor-scene:nth-of-type(2) > figure.media.decor-salon > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 79 ms (différence 22 %) (films/retour-avant-1366.png)",
+      "etape": "films",
+      "page": "/toiles",
+      "taille": "1366×768",
+      "mode": "retour avant",
+      "lieux": [
+        "1366×768 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 74 ms (différence 24 %) (films/retour-avant-390.png)",
+      "etape": "films",
+      "page": "/toiles",
+      "taille": "390×844",
+      "mode": "retour avant",
+      "lieux": [
+        "390×844 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (4.5 %), voir comparaisons/rechargement-sculptures-*.png",
+      "etape": "parcours",
+      "page": "/sculptures",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "catalogue : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/toiles",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#catalogue.catalogue.conteneur",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "rangee : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "ul.rangee-piste",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "rangee : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/sculptures",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "ul.rangee-piste",
+      "lieux": [
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 2,
+    "mesures": 66,
+    "balayage": 5,
+    "films d’ouverture": 8,
+    "films de transition": 8,
+    "bords de l’écran": 5,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens profonds": 9,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 4,
+    "fluidité": 8,
+    "défilement selon l’appareil": 5,
+    "mouvement": 8,
+    "effets du plan": 12,
+    "souris immobile": 5,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Audit standard : étapes lourdes sur /, /contact, /sculptures, /toiles.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2392 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2352 ms depuis le premier octet",
+    "Ouverture /sculptures (1366×768) : 2316 ms depuis le premier octet",
+    "Ouverture /toiles (1366×768) : 2285 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2356 ms depuis le premier octet",
+    "film de l'ouverture / 390×844 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /contact (390×844) : 2316 ms depuis le premier octet",
+    "Ouverture /sculptures (390×844) : 2352 ms depuis le premier octet",
+    "Ouverture /toiles (390×844) : 2259 ms depuis le premier octet",
+    "bords de l’écran /toiles 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 8 images d’intro, 16 de voile et 114 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /artiste : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /sculptures : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /toiles : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 0 % d'images lentes sur 397, tâche la plus longue 0 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 231, tâche la plus longue 0 ms",
+    "Fluidité /sculptures 1366×768 (molette) : 0 % d'images lentes sur 440, tâche la plus longue 0 ms",
+    "Fluidité /toiles 1366×768 (molette) : 0 % d'images lentes sur 297, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1420, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1346, tâche la plus longue 0 ms",
+    "Fluidité /sculptures 390×844 (doigt) : 0 % d'images lentes sur 1339, tâche la plus longue 0 ms",
+    "Fluidité /toiles 390×844 (doigt) : 0 % d'images lentes sur 1340, tâche la plus longue 0 ms",
+    "Vitesse / : 0.55 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /artiste : 0.33 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.31 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /sculptures : 0.39 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /toiles : 0.54 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "absent",
+      "detail": "versObjet absent"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en coupe"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "sans objet",
+      "detail": "aucune scène épinglée marquée ni galerie générique"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

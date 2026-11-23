@@ -1,0 +1,122 @@
+{
+  "souche": [
+    {
+      "image": "sculptures/souche-ours-masque",
+      "titre": "Souche sculptée",
+      "ratio": "3 / 4",
+      "grand": true
+    },
+    {
+      "image": "sculptures/maman-bebe-ours",
+      "titre": "Maman et bébé ours",
+      "ratio": "3 / 4"
+    },
+    {
+      "image": "sculptures/souche-tigre",
+      "titre": "Souche sculptée, détail",
+      "ratio": "4 / 3"
+    },
+    {
+      "image": "sculptures/totem",
+      "titre": "Totem",
+      "ratio": "3 / 4"
+    },
+    {
+      "image": "sculptures/ours-chemises",
+      "titre": "Souches sculptées",
+      "ratio": "4 / 3"
+    }
+  ],
+  "collection": [
+    {
+      "image": "sculptures/harmonie-aquatique",
+      "titre": "Harmonie aquatique du feu",
+      "ratio": "3 / 4"
+    },
+    {
+      "image": "sculptures/elle-drag-sagesse",
+      "titre": "Elle drag la sagesse et met la connaissance à je-nous",
+      "ratio": "3 / 4"
+    },
+    {
+      "image": "sculptures/art-monisme-aquatique",
+      "titre": "Art-monisme aquatique",
+      "ratio": "4 / 3"
+    },
+    {
+      "image": "sculptures/envolee-litteraire",
+      "titre": "Envolée littéraire",
+      "ratio": "5 / 4"
+    },
+    {
+      "image": "sculptures/ouverture-eclaire-songe",
+      "titre": "Ouverture éclaire d'un songe",
+      "ratio": "3 / 4"
+    },
+    {
+      "image": "sculptures/citrouille",
+      "titre": "Citrouille, Saint-Faustin, 2019",
+      "ratio": "4 / 3"
+    }
+  ],
+  "bancs": [
+    {
+      "image": "sculptures/banc-fee",
+      "titre": "Fée sur un champignon"
+    },
+    {
+      "image": "sculptures/banc-chat",
+      "titre": "Chat dans son fauteuil"
+    },
+    {
+      "image": "sculptures/banc-aigle",
+      "titre": "Banc à l'aigle"
+    },
+    {
+      "image": "sculptures/banc-guitare",
+      "titre": "Guitare et botte"
+    },
+    {
+      "image": "sculptures/banc-castors",
+      "titre": "Deux castors"
+    },
+    {
+      "image": "sculptures/banc-grenouille",
+      "titre": "Grenouille"
+    }
+  ],
+  "neige": [
+    {
+      "image": "sculptures/neige/dragon",
+      "titre": "Dragon"
+    },
+    {
+      "image": "sculptures/neige/viking",
+      "titre": "Viking"
+    },
+    {
+      "image": "sculptures/neige/ours-fauteuil",
+      "titre": "Ours au fauteuil"
+    },
+    {
+      "image": "sculptures/neige/dragon-chinois",
+      "titre": "Dragon chinois"
+    },
+    {
+      "image": "sculptures/neige/cheval-aile",
+      "titre": "Cheval ailé"
+    },
+    {
+      "image": "sculptures/neige/libellule",
+      "titre": "Libellule"
+    },
+    {
+      "image": "sculptures/neige/gargouille",
+      "titre": "Gargouille"
+    },
+    {
+      "image": "sculptures/neige/festival",
+      "titre": "Festival d'hiver"
+    }
+  ]
+}

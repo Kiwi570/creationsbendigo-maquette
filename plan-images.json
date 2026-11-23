@@ -1,0 +1,774 @@
+[
+  {
+    "source": "recu/creationsbendigo-recu/creationsbendigo-com.png",
+    "nom": "logo",
+    "role": "logo",
+    "alt": "Créations Bendigo"
+  },
+  {
+    "source": "recu/creationsbendigo-recu/western-lover-mod-tag.png",
+    "nom": "toiles/western-lover",
+    "role": "produit",
+    "alt": "Western Lover : banc sculpté à la tronçonneuse, visage barbu sous un chapeau de cowboy",
+    "ratio": "2000:1641",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/cliff-eagle-egg-mind-2.png",
+    "nom": "toiles/cliff-eagle-egg-mind",
+    "role": "produit",
+    "alt": "Cliff eagle egg mind : aigle sculpté dans le bois, ailes déployées au sommet d’une colonne",
+    "ratio": "899:1740",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/cliff-eagle-egg-mind.png",
+    "nom": "toiles/cliff-eagle-egg-mind-nb",
+    "role": "produit",
+    "alt": "Cliff eagle egg mind, en noir et blanc",
+    "ratio": "899:1740",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/dragonlake-mod-tag.png",
+    "nom": "toiles/dragonlake",
+    "role": "produit",
+    "alt": "Dragonlake : dragon sculpté dans la neige, la nuit, sous une lumière bleue",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/dragonlake-mod-tag-nb.png",
+    "nom": "toiles/dragonlake-nb",
+    "role": "produit",
+    "alt": "Dragonlake, en noir et blanc",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/divinementmains-mod-tag-nb.png",
+    "nom": "toiles/divinementmains-nb",
+    "role": "produit",
+    "alt": "Divinementmains : deux mains de neige qui portent un enfant, en noir et blanc",
+    "ratio": "1218:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/re-invention-tour-mod.png",
+    "nom": "toiles/re-invention-tour-nb",
+    "role": "produit",
+    "alt": "Re Invention Tour : guitariste et lettres en pointillisme blanc sur fond noir",
+    "ratio": "1654:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/revolte-cellulaire-mod-tag.png",
+    "nom": "toiles/revolte-cellulaire-nb",
+    "role": "produit",
+    "alt": "Révolte cellulaire : un félin et un visage qui se font face, en pointillisme sur fond noir",
+    "ratio": "1600:1200",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/humanimal-mod-tag-nb.png",
+    "nom": "toiles/humanimal-nb",
+    "role": "produit",
+    "alt": "L’humanimal : un félin rugissant face à un visage d’homme, en pointillisme blanc sur noir",
+    "ratio": "1600:1200",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-3.jpg",
+    "nom": "decor/salon-pierre",
+    "role": "galerie",
+    "alt": "Toile de Bendigo accrochée au mur de pierre d’un salon",
+    "ratio": "2000:1506",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo.jpg",
+    "nom": "decor/salon-clair",
+    "role": "galerie",
+    "alt": "Toile de Bendigo au-dessus d’un canapé gris, dans un salon clair",
+    "ratio": "2000:1333",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-7.jpg",
+    "nom": "decor/chambre",
+    "role": "galerie",
+    "alt": "Toile de dauphins accrochée au-dessus d’un lit",
+    "ratio": "1911:2000",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-8.jpg",
+    "nom": "decor/aigle-entree",
+    "role": "galerie",
+    "alt": "Grande toile verticale d’un aigle sculpté, au-dessus d’un banc",
+    "ratio": "1397:2000",
+    "largeurs": [
+      640,
+      1000
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-9.jpg",
+    "nom": "decor/foyer",
+    "role": "galerie",
+    "alt": "Toile de Bendigo au-dessus d’un foyer, dans un salon aux arches blanches",
+    "ratio": "1892:1232",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/ermitage-lac-ste-adele.jpg",
+    "nom": "sculptures/ermitage-ours",
+    "role": "galerie",
+    "alt": "Ours géant sculpté dans une souche haute, à côté du sculpteur, à l’Ermitage sur le lac Sainte-Adèle",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/maman-bebe-ours.jpg",
+    "nom": "sculptures/maman-bebe-ours",
+    "role": "galerie",
+    "alt": "Maman et bébé ours sculptés dans une souche, au bord d’une forêt",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/souche-sculpte-11.jpg",
+    "nom": "sculptures/souche-ours-masque",
+    "role": "galerie",
+    "alt": "Souche sculptée : un ours au-dessus d’un masque peint, sous des fanions colorés",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/souche-sculpte-4.jpg",
+    "nom": "sculptures/souche-tigre",
+    "role": "galerie",
+    "alt": "Tête de tigre sculptée à la tronçonneuse, vue de près",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 5
+  },
+  {
+    "source": "recu/creationsbendigo-recu/totem-benoit-beauchamps.jpg",
+    "nom": "sculptures/totem",
+    "role": "galerie",
+    "alt": "Totem sculpté, ailes déployées et visages peints, dans un jardin",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/tornade-minerve.jpg",
+    "nom": "sculptures/tornade-minerve",
+    "role": "galerie",
+    "alt": "Souches laissées par une tornade à La Minerve, avant la sculpture",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/creationsbendigo-recu/souche-sculpte-8.jpg",
+    "nom": "sculptures/ours-chemises",
+    "role": "galerie",
+    "alt": "Trois ours en chemise à carreaux sculptés dans le bois",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/souche-sculpte-6.jpg",
+    "nom": "sculptures/ours-hache",
+    "role": "galerie",
+    "alt": "Ours en chemise à carreaux tenant une hache, sculpté dans le bois",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/creationsbendigo-recu/ouverture-eclaire-songe-2.jpg",
+    "nom": "sculptures/hommutant",
+    "role": "galerie",
+    "alt": "Hommutant : oiseau et visage fondus dans une même pièce de bois",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/ouverture-eclaire-songe.jpg",
+    "nom": "sculptures/ouverture-eclaire-songe",
+    "role": "galerie",
+    "alt": "Ouverture éclaire d’un songe : deux visages adossés, sculptés dans le bois",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/ouverture-eclaire-songe-3.jpg",
+    "nom": "sculptures/ouverture-eclaire-songe-avant",
+    "role": "galerie",
+    "alt": "La même pièce avant la sculpture : un tronc brut debout sur l’herbe",
+    "ratio": "1349:1465",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/creationsbendigo-recu/harmonie-aquatique-feu.jpg",
+    "nom": "sculptures/harmonie-aquatique",
+    "role": "galerie",
+    "alt": "Harmonie aquatique du feu : dauphins blancs au-dessus d’un masque",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/elle-drag-sagesse-met.jpg",
+    "nom": "sculptures/elle-drag-sagesse",
+    "role": "galerie",
+    "alt": "Elle drag la sagesse et met la connaissance à je-nous : totem à l’aigle",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/art-monisme-aquatique.jpg",
+    "nom": "sculptures/art-monisme-aquatique",
+    "role": "galerie",
+    "alt": "Art-monisme aquatique : grande sculpture musicale, guitare et sirène, à côté du sculpteur",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/envolee-literaire.png",
+    "nom": "sculptures/envolee-litteraire",
+    "role": "galerie",
+    "alt": "Envolée littéraire : banc sculpté entre deux totems, le sculpteur assis au milieu",
+    "ratio": "2000:1600",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/citrouille-st-faustin-2019.jpg",
+    "nom": "sculptures/citrouille",
+    "role": "galerie",
+    "alt": "Citrouille sculptée d’un visage, Saint-Faustin, 2019",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/stratos-roi-pizza.jpg",
+    "nom": "sculptures/demonstration",
+    "role": "galerie",
+    "alt": "Démonstration de sculpture devant un restaurant, le public autour du sculpteur",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-2.jpg",
+    "nom": "sculptures/banc-fee",
+    "role": "galerie",
+    "alt": "Banc de jardin : une fée assise sur un champignon, au bout d’un banc en forme de feuille",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-20.jpg",
+    "nom": "sculptures/banc-chat",
+    "role": "galerie",
+    "alt": "Chat sculpté assis dans un fauteuil de bois, vu de près",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-27.jpg",
+    "nom": "sculptures/banc-aigle",
+    "role": "galerie",
+    "alt": "Banc dont un pied est une tête d’aigle aux serres posées au sol",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-16.jpg",
+    "nom": "sculptures/banc-guitare",
+    "role": "galerie",
+    "alt": "Banc en forme de guitare appuyé contre une botte sculptée",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-33.jpg",
+    "nom": "sculptures/banc-castors",
+    "role": "galerie",
+    "alt": "Banc porté par deux castors sculptés",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-49.jpg",
+    "nom": "sculptures/banc-grenouille",
+    "role": "galerie",
+    "alt": "Banc vert et orangé, une grenouille sculptée au bout",
+    "ratio": "1600:1200",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "source": "recu/creationsbendigo-recu/eglise-st-adolphe-3.jpg",
+    "nom": "sculptures/neige-eglise",
+    "role": "galerie",
+    "alt": "Deux figures de neige adossées, devant une église, au soleil d’hiver",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/creationsbendigo-recu/ste-agathe-projet-groupe.jpg",
+    "nom": "sculptures/neige-fauteuil",
+    "role": "galerie",
+    "alt": "Fauteuil de neige sculpté, un dragon en dossier, sur un lac gelé",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/creationsbendigo-recu/dragon-sutton-03.jpg",
+    "nom": "sculptures/neige/dragon",
+    "role": "vignette",
+    "alt": "Tête de dragon sculptée dans la neige",
+    "ratio": "640:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/ste-agathe-projet-groupe-2.jpg",
+    "nom": "sculptures/neige/ours-fauteuil",
+    "role": "vignette",
+    "alt": "Ours polaire assis sur un fauteuil de neige",
+    "ratio": "640:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/cheval-tres-ailes-01.jpg",
+    "nom": "sculptures/neige/cheval-aile",
+    "role": "vignette",
+    "alt": "Cheval ailé couché, sculpté dans la neige, la nuit",
+    "ratio": "640:460",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/dragon-chinois-01.jpg",
+    "nom": "sculptures/neige/dragon-chinois",
+    "role": "vignette",
+    "alt": "Dragon chinois sculpté dans la neige",
+    "ratio": "480:581",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/dragodin-viking-05.jpg",
+    "nom": "sculptures/neige/viking",
+    "role": "vignette",
+    "alt": "Guerrier viking sculpté dans la neige",
+    "ratio": "430:640",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/mm-libellule-01.jpg",
+    "nom": "sculptures/neige/libellule",
+    "role": "vignette",
+    "alt": "Libellule posée sur un bloc de neige, la nuit",
+    "ratio": "566:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/venue-etoiles-02.jpg",
+    "nom": "sculptures/neige/gargouille",
+    "role": "vignette",
+    "alt": "Gargouille ailée sculptée dans la neige, le sculpteur à côté",
+    "ratio": "457:640",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/creationsbendigo-recu/festi-neige-ste-agathe.jpg",
+    "nom": "sculptures/neige/festival",
+    "role": "vignette",
+    "alt": "Sculpture de neige devant le panneau d’un festival d’hiver",
+    "ratio": "581:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": false,
+    "beaute": 2
+  },
+  {
+    "source": "recu/retouche/benoit.png",
+    "nom": "benoit",
+    "role": "ouverture",
+    "alt": "Benoit Sauvageau, dit Bendigo, casquette et collier de bois, sourire en coin",
+    "ratio": "1500:1590",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": false,
+    "beaute": 4
+  },
+  {
+    "nom": "grok/souche-attente",
+    "role": "section-fond",
+    "page": "sculptures",
+    "emplacement": "Sur souche : bandeau « gardez une souche de 7 à 8 pieds »",
+    "priorite": "indispensable",
+    "gabarit": "section-fond",
+    "zone_texte": "gauche",
+    "alt": "Une haute souche fraîchement coupée dans une clairière, des copeaux au pied",
+    "beaute": 4,
+    "consigne_scene": "A single tall freshly cut tree stump about two meters high standing alone in a forest clearing, its flat top cleanly sawn, a carpet of pale fresh wood chips and sawdust around its base, nothing carved on it, no tools, no people, the left half of the frame open and calm (soft out-of-focus trees).",
+    "source": "recu/grok/souche-attente.png",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ]
+  },
+  {
+    "nom": "grok/neige-bloc",
+    "role": "section-fond",
+    "page": "sculptures",
+    "emplacement": "Neige : bandeau d’ouverture de la partie neige",
+    "priorite": "indispensable",
+    "gabarit": "section-fond",
+    "zone_texte": "gauche",
+    "alt": "Un grand bloc de neige tassée, marqué de coups de pelle, à l’heure bleue",
+    "beaute": 4,
+    "consigne_scene": "A large rough rectangular block of packed snow, about two meters tall, standing in a snowy small-town square at blue hour, its sides marked with shovel and scraper strokes, nothing carved on it yet, warm street lights far behind out of focus, gentle snowfall, nobody, the left half of the frame calm and dark blue.",
+    "source": "recu/grok/neige-bloc.png",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ]
+  },
+  {
+    "nom": "grok/salon-chalet",
+    "role": "section-fond",
+    "page": "toiles",
+    "emplacement": "Dans votre décor : mur vide où la toile choisie est posée par le code",
+    "priorite": "indispensable",
+    "gabarit": "lieu",
+    "alt": "Salon de chalet lumineux, mur de planches clair au-dessus d’un canapé",
+    "beaute": 4,
+    "consigne_scene": "Straight-on eye-level view of a bright modern chalet living room in the Laurentian mountains, a long low sofa in oatmeal linen against a wide wall of pale whitewashed pine boards, the wall above the sofa completely empty and evenly lit over the central two thirds of the frame, a wool throw, a small side table with a ceramic lamp, a large window on the far right showing a snowy forest, nothing hanging on the wall, no frame, no picture, nobody.",
+    "source": "recu/grok/salon-chalet.png",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": false,
+    "ratio": "1600:1074"
+  },
+  {
+    "nom": "grok/atelier-hiver",
+    "role": "ouverture",
+    "page": "contact",
+    "emplacement": "Ouverture de la page Contact et commande",
+    "priorite": "indispensable",
+    "gabarit": "lieu",
+    "zone_texte": "gauche",
+    "alt": "Petit atelier de bois dans la forêt enneigée, une fenêtre éclairée au crépuscule",
+    "beaute": 5,
+    "mobile": true,
+    "source_mobile": "recu/grok/atelier-hiver-mobile.png",
+    "consigne_scene": "A small rustic wooden workshop cabin at the edge of a snowy forest at dusk, one warmly lit window, a neat stack of split logs and a few large rough logs resting under the eave, deep snow, smoke from a small chimney, footprints leading to the door, nobody, no sign, no lettering, the left half of the frame open sky and snowy trees.",
+    "source": "recu/grok/atelier-hiver.png",
+    "ratio": "16:9"
+  },
+  {
+    "nom": "grok/page-404",
+    "role": "404",
+    "page": "404",
+    "emplacement": "Image de la page 404",
+    "priorite": "indispensable",
+    "gabarit": "404",
+    "alt": "Une bûche sciée de travers, des copeaux autour",
+    "beaute": 4,
+    "consigne_scene": "A thick log resting on a sawhorse, cut halfway through with a chainsaw kerf that drifts sideways in a comically crooked curve, fresh pale wood chips scattered below on packed earth, no chainsaw visible, no people, raking golden light, a gentle touch of humour.",
+    "source": "recu/grok/page-404.png"
+  }
+]

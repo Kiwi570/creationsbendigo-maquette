@@ -1,0 +1,16 @@
+{
+ "id": "20261123-170925-complet-cible-partiel",
+ "date": "2026-11-23T17:13:13.556Z",
+ "niveau": "complet",
+ "pages": "/sculptures,/artiste,/toiles,/contact",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 8,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

@@ -1,0 +1,15 @@
+{
+  "nom": "Créations Bendigo",
+  "adresse": "https://creationsbendigo-maquette.vercel.app",
+  "siteActuel": "www.creationsbendigo.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "toiles", "sculptures", "artiste", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "demande" },
+  "couleurs": { "fond": "#f2ebdf", "texte": "#1e1712", "voile": "#241912", "ouverture": "#241912", "menu": "#241912", "theme": "#f2ebdf" },
+  "formeVoile": "coupe",
+  "contact": { "email": "creationsbendigo@hotmail.com", "facebook": "https://www.facebook.com/Cr%C3%A9ations-Bendigocom-262792637254850" },
+  "polices": ["/assets/fonts/bricolage.woff2"],
+  "imagePartage": "toiles/dragonlake-1200.webp",
+  "curseur": false
+}

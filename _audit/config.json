@@ -1,0 +1,25 @@
+{
+  "siteActuel": "www.creationsbendigo.com",
+  "pagesTypes": [
+    "/",
+    "/toiles",
+    "/sculptures",
+    "/contact"
+  ],
+  "effets": [
+    "eventail",
+    "toile-3d",
+    "rangee",
+    "signature",
+    "bandeau",
+    "decor",
+    "avant-apres",
+    "cernes",
+    "annee",
+    "hero-parallaxe",
+    "sciure"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

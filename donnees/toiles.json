@@ -1,0 +1,11 @@
+[
+  { "id": "western-lover", "titre": "Western Lover", "collection": "bois", "version": "couleur", "codes": "mod tag", "image": "toiles/western-lover", "ratio": "2000 / 1641", "proportion": 1.219 },
+  { "id": "cliff-eagle-egg-mind", "titre": "Cliff eagle egg mind", "collection": "bois", "version": "couleur", "codes": "mod tag", "image": "toiles/cliff-eagle-egg-mind", "ratio": "899 / 1740", "proportion": 0.517 },
+  { "id": "cliff-eagle-egg-mind-nb", "titre": "Cliff eagle egg mind", "collection": "bois", "version": "nb", "codes": "mod tag NB", "image": "toiles/cliff-eagle-egg-mind-nb", "ratio": "899 / 1740", "proportion": 0.517 },
+  { "id": "dragonlake", "titre": "Dragonlake", "collection": "neige", "version": "couleur", "codes": "mod tag", "image": "toiles/dragonlake", "ratio": "4 / 3", "proportion": 1.333 },
+  { "id": "dragonlake-nb", "titre": "Dragonlake", "collection": "neige", "version": "nb", "codes": "mod tag NB", "image": "toiles/dragonlake-nb", "ratio": "4 / 3", "proportion": 1.333 },
+  { "id": "divinementmains-nb", "titre": "Divinementmains", "collection": "neige", "version": "nb", "codes": "mod tag NB", "image": "toiles/divinementmains-nb", "ratio": "1218 / 2000", "proportion": 0.609 },
+  { "id": "re-invention-tour-nb", "titre": "Re Invention Tour", "collection": "tableaux", "version": "nb", "codes": "mod tag 3D NB", "image": "toiles/re-invention-tour-nb", "ratio": "1654 / 2000", "proportion": 0.827 },
+  { "id": "revolte-cellulaire-nb", "titre": "Révolte cellulaire", "collection": "tableaux", "version": "nb", "codes": "mod tag NB", "image": "toiles/revolte-cellulaire-nb", "ratio": "4 / 3", "proportion": 1.333 },
+  { "id": "humanimal-nb", "titre": "L'humanimal", "collection": "tableaux", "version": "nb", "codes": "mod tag NB", "image": "toiles/humanimal-nb", "ratio": "4 / 3", "proportion": 1.333 }
+]

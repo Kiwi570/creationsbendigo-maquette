@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Commander une toile : Créations Bendigo</title>
+<meta name="description" content="Votre demande de toile par courriel, paiement par virement Interac ou comptant, ramassage à l&#39;atelier ou livraison.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://creationsbendigo-maquette.vercel.app/contact">
+<style>:root{--fond:#f2ebdf;--texte:#1e1712;--voile-fond:#241912;--ouverture-fond:#241912;--menu-fond:#241912}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f2ebdf">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Créations Bendigo">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Commander une toile : Créations Bendigo">
+<meta property="og:description" content="Votre demande de toile par courriel, paiement par virement Interac ou comptant, ramassage à l&#39;atelier ou livraison.">
+<meta property="og:url" content="https://creationsbendigo-maquette.vercel.app/contact">
+<meta property="og:image" content="https://creationsbendigo-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Petit atelier de bois dans la forêt enneigée">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Créations Bendigo","url":"https://creationsbendigo-maquette.vercel.app/","email":"creationsbendigo@hotmail.com","founder":{"@type":"Person","name":"Benoit Sauvageau","alternateName":"Bendigo"},"sameAs":["https://www.facebook.com/Cr%C3%A9ations-Bendigocom-262792637254850"],"description":"Toiles imprimées des sculptures sur bois, sur neige et des tableaux au pointillisme de Bendigo, signées au dos. Produit québécois."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="coupe" aria-hidden="true"><span class="voile-trait"></span><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="120" height="81"><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture data-gouttiere="#241912" aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="280" height="188" data-ouverture-objet>
+  <p class="ouverture-ligne">Le Magicien à la tronçonneuse</p>
+  <span class="ouverture-coupe"></span>
+  <canvas class="ouverture-copeaux" width="10" height="10"></canvas>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Créations Bendigo, accueil">
+      <img src="/assets/images/logo.svg" alt="" width="70" height="47">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/toiles" data-libelle="Toiles">Toiles</a></li><li><a href="/sculptures" data-libelle="Sculptures">Sculptures</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Commander une toile <span class="demande-compte" data-demande-compte hidden></span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/toiles" class="menu-lien" data-libelle="Toiles">Toiles</a></li><li style="--i:2"><a href="/sculptures" class="menu-lien" data-libelle="Sculptures">Sculptures</a></li><li style="--i:3"><a href="/artiste" class="menu-lien" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a href="/contact#demande" class="bouton" data-libelle="Contact">Commander une toile</a></p>
+  <p class="menu-courriel">creationsbendigo@hotmail.com</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ct-hero" id="debut">
+  <figure class="media ct-hero-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:70% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/atelier-hiver-mobile-640.webp 640w, /assets/images/grok/atelier-hiver-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/atelier-hiver-1280.webp" srcset="/assets/images/grok/atelier-hiver-640.webp 640w, /assets/images/grok/atelier-hiver-1280.webp 1280w, /assets/images/grok/atelier-hiver-1920.webp 1920w" sizes="100vw" alt="Petit atelier de bois dans la forêt enneigée, une fenêtre éclairée au crépuscule" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur ct-hero-zone">
+    <div class="ct-carte ouv-visuel" data-iris-centre>
+      <p class="surtitre ouv-el" data-anime="gsap">Contact et commande</p>
+      <h1 class="ct-hero-titre ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">Commander une toile</span></span></h1>
+      <p class="ouv-el" data-anime="gsap">Choisissez vos toiles, Bendigo confirme tout par courriel. Paiement par virement Interac ou en argent comptant.</p>
+      <p class="actions ouv-el" data-anime="gsap"><a class="bouton" href="#demande" data-action-principale data-survol="magnetique">Préparer ma demande <span class="demande-compte" data-demande-compte hidden></span></a></p>
+      <p class="hero-info ct-courriel ouv-el" data-info-cle data-anime="gsap">creationsbendigo@hotmail.com</p>
+    </div>
+  </div>
+</section>
+<section class="demande conteneur" id="demande">
+  <div class="demande-col">
+    <h2 data-anime="lignes">Ma demande</h2>
+    <p data-anime>Vos toiles, vos coordonnées : le courriel se prépare tout seul.</p>
+    <div class="demande-panier" data-anime>
+      <ul class="demande-liste" data-demande-liste aria-live="polite"></ul>
+      <p class="demande-vide" data-demande-vide>Aucune toile pour l&#39;instant. <a href="/toiles#catalogue" class="lien-fleche" data-libelle="Toiles">Choisir dans le catalogue</a></p>
+    </div>
+    <p class="demande-direct" data-anime>Ou écrivez directement à <a href="mailto:creationsbendigo@hotmail.com">creationsbendigo@hotmail.com</a></p>
+  </div>
+  <form class="demande-form" data-demande-form novalidate data-email="creationsbendigo@hotmail.com" data-sujet="Demande de toile" data-aucune="aucune toile choisie pour l&#39;instant" data-erreur-nom="Indiquez votre nom." data-erreur-courriel="Indiquez un courriel valide, par exemple nom@exemple.com." data-anime>
+    <div class="champ"><label for="d-nom">Votre nom</label><input id="d-nom" name="nom" autocomplete="name" required aria-describedby="d-nom-erreur"><p class="champ-erreur" id="d-nom-erreur" hidden></p></div>
+    <div class="champ"><label for="d-courriel">Votre courriel</label><input id="d-courriel" name="courriel" type="email" autocomplete="email" required aria-describedby="d-courriel-erreur"><p class="champ-erreur" id="d-courriel-erreur" hidden></p></div>
+    <div class="champ"><label for="d-ville">Ville ou région</label><input id="d-ville" name="ville" autocomplete="address-level2"></div>
+    <div class="champ"><label for="d-taille">Taille ou espace à couvrir</label><input id="d-taille" name="taille" aria-describedby="d-taille-aide"><p class="champ-aide" id="d-taille-aide">Exemple : mur de 60 po au-dessus d&#39;un canapé</p></div>
+    <fieldset class="champ champ-radios"><legend>Réception</legend>
+      <label class="radio"><input type="radio" name="reception" value="Ramassage à l&#39;atelier" checked><span>Ramassage à l&#39;atelier</span></label><label class="radio"><input type="radio" name="reception" value="Livraison par Bendigo"><span>Livraison par Bendigo</span></label><label class="radio"><input type="radio" name="reception" value="Transporteur"><span>Transporteur</span></label>
+    </fieldset>
+    <div class="champ"><label for="d-message">Message</label><textarea id="d-message" name="message" rows="4" placeholder="Un titre que vous cherchez, une question sur la taille…"></textarea></div>
+    <p class="champ-aide">Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+    <p><button type="submit" class="bouton">Préparer le courriel</button></p>
+    <div class="demande-sortie" data-demande-sortie tabindex="-1" hidden>
+      <p>Votre logiciel de courriel s&#39;ouvre avec la demande prête. Rien n&#39;est envoyé tant que vous ne cliquez pas sur Envoyer.</p>
+      <pre class="demande-texte" data-demande-texte></pre>
+      <p class="actions"><a class="bouton" href="mailto:creationsbendigo@hotmail.com" data-demande-mailto>Ouvrir mon courriel</a> <button type="button" class="bouton bouton--contour" data-demande-copier data-copiee="Demande copiée"><span data-libelle-bouton>Copier la demande</span></button></p>
+    </div>
+  </form>
+</section>
+<section class="reception" id="reception">
+  <div class="conteneur">
+    <h2 data-anime="lignes">Paiement et réception</h2>
+    <ul class="reception-grille" data-anime="cascade">
+      <li class="reception-carte"><span class="reception-num" aria-hidden="true">01</span><h3>Paiement</h3><p>Virement Interac ou argent comptant.</p></li><li class="reception-carte"><span class="reception-num" aria-hidden="true">02</span><h3>Ramassage à l&#39;atelier</h3><p>Si la toile est déjà en inventaire, vous pouvez la chercher à l&#39;atelier.</p></li><li class="reception-carte"><span class="reception-num" aria-hidden="true">03</span><h3>Livraison par Bendigo</h3><p>Si la distance est raisonnable : 0,50 $ du kilomètre, aller-retour.</p><p class="reception-exemple">Exemple : à 20 km de l&#39;atelier, 40 km aller-retour, 20 $.</p></li><li class="reception-carte"><span class="reception-num" aria-hidden="true">04</span><h3>Transporteur</h3><p>Si la distance pose problème : livraison prépayée par transporteur.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="faq conteneur" id="faq">
+  <h2 data-anime="lignes">Questions fréquentes</h2>
+  <div class="faq-liste">
+    <details class="faq-item" data-anime><summary>Que veut dire NB ?</summary><p>NB désigne la version en noir et blanc d&#39;une image. Sans NB, l&#39;image est en couleur.</p></details><details class="faq-item" data-anime><summary>Et les codes mod, tag et 3D ?</summary><p>Recopiez-les tels quels avec le titre : ils désignent la version exacte de l&#39;image que vous choisissez.</p></details><details class="faq-item" data-anime><summary>Les œuvres sont-elles générées par intelligence artificielle ?</summary><p>Non. Ce sont des œuvres réelles de Bendigo : sculptures sur bois, sur neige, tableaux et murales.</p></details><details class="faq-item" data-anime><summary>Comment reconnaître une vraie toile de l&#39;atelier ?</summary><p>Chaque toile est signée au dos. Une toile non signée ne vient pas de l&#39;atelier.</p></details><details class="faq-item" data-anime><summary>Quelle taille puis-je commander ?</summary><p>La plupart des images vont jusqu&#39;à environ 55 po sur leur plus grand côté. Sinon, Bendigo vous indique la taille maximale.</p></details><details class="faq-item" data-anime><summary>Comment entretenir ma toile ?</summary><p>Un linge doux et du savon suffisent : l&#39;encre HP Latex est lavable.</p></details><details class="faq-item" data-anime><summary>Quels sont les délais ?</summary><p>Bendigo vous les confirme par courriel, avec votre commande.</p></details>
+  </div>
+</section>
+<section class="fin fin--sombre fin--court" id="fin">
+  <div class="conteneur fin-ligne">
+    <div>
+      <h2 data-anime="lignes">Encore à choisir ?</h2>
+      <p data-anime>Le catalogue vous attend : bois, neige, tableaux.</p>
+    </div>
+    <p class="actions" data-anime><a href="/toiles" class="bouton" data-libelle="Toiles" data-survol="magnetique">Voir les toiles</a></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-clair.svg" alt="Créations Bendigo" width="150" height="101" loading="lazy">
+      <p>Toiles imprimées des sculptures et tableaux de Benoit Sauvageau, dit Bendigo. Produit 100 % québécois.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire</p>
+      <p><a href="mailto:creationsbendigo@hotmail.com">creationsbendigo@hotmail.com</a></p>
+      <p><a href="https://www.facebook.com/Cr%C3%A9ations-Bendigocom-262792637254850" target="_blank" rel="noopener">Créations Bendigo sur Facebook</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/toiles" data-libelle="Toiles">Toiles</a></li><li><a href="/sculptures" data-libelle="Sculptures">Sculptures</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p>
+    <p>Maquette de présentation : la demande prépare un courriel, rien n&#39;est envoyé par le site.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="mailto:creationsbendigo@hotmail.com">Écrire</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Ma demande <span class="demande-compte" data-demande-compte hidden></span></a>
+</div>
+<p class="visuellement-cache" data-annonce aria-live="polite"></p>
+<script type="application/json" id="donnees-toiles">[{"id":"western-lover","titre":"Western Lover","collection":"bois","version":"couleur","codes":"mod tag","image":"toiles/western-lover","ratio":"2000 / 1641","proportion":1.219},{"id":"cliff-eagle-egg-mind","titre":"Cliff eagle egg mind","collection":"bois","version":"couleur","codes":"mod tag","image":"toiles/cliff-eagle-egg-mind","ratio":"899 / 1740","proportion":0.517},{"id":"cliff-eagle-egg-mind-nb","titre":"Cliff eagle egg mind","collection":"bois","version":"nb","codes":"mod tag NB","image":"toiles/cliff-eagle-egg-mind-nb","ratio":"899 / 1740","proportion":0.517},{"id":"dragonlake","titre":"Dragonlake","collection":"neige","version":"couleur","codes":"mod tag","image":"toiles/dragonlake","ratio":"4 / 3","proportion":1.333},{"id":"dragonlake-nb","titre":"Dragonlake","collection":"neige","version":"nb","codes":"mod tag NB","image":"toiles/dragonlake-nb","ratio":"4 / 3","proportion":1.333},{"id":"divinementmains-nb","titre":"Divinementmains","collection":"neige","version":"nb","codes":"mod tag NB","image":"toiles/divinementmains-nb","ratio":"1218 / 2000","proportion":0.609},{"id":"re-invention-tour-nb","titre":"Re Invention Tour","collection":"tableaux","version":"nb","codes":"mod tag 3D NB","image":"toiles/re-invention-tour-nb","ratio":"1654 / 2000","proportion":0.827},{"id":"revolte-cellulaire-nb","titre":"Révolte cellulaire","collection":"tableaux","version":"nb","codes":"mod tag NB","image":"toiles/revolte-cellulaire-nb","ratio":"4 / 3","proportion":1.333},{"id":"humanimal-nb","titre":"L'humanimal","collection":"tableaux","version":"nb","codes":"mod tag NB","image":"toiles/humanimal-nb","ratio":"4 / 3","proportion":1.333}]</script>
+</body>
+</html>

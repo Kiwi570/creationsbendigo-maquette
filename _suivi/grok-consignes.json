@@ -1,0 +1,92 @@
+{
+  "client": "Créations Bendigo",
+  "activite": "artisanat",
+  "direction": "Le trait de scie",
+  "date": "2026-11-23T15:56:42.273Z",
+  "images": [
+    {
+      "nom": "grok/souche-attente",
+      "fichier": "souche-attente.png",
+      "page": "sculptures",
+      "emplacement": "Sur souche : bandeau « gardez une souche de 7 à 8 pieds »",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A single tall freshly cut tree stump about two meters high standing alone in a forest clearing, its flat top cleanly sawn, a carpet of pale fresh wood chips and sawdust around its base, nothing carved on it, no tools, no people, the left half of the frame open and calm (soft out-of-focus trees). Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Photorealistic editorial still life for a high-end craft workshop, warm, lively and handmade mood, palette of warm natural wood tones, soft cream and deep walnut brown, soft natural light raking across the textures, tactile fresh pine shavings, rough bark and pale sawdust, set in the Laurentian mountains of Quebec on a calm day, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/neige-bloc",
+      "fichier": "neige-bloc.png",
+      "page": "sculptures",
+      "emplacement": "Neige : bandeau d’ouverture de la partie neige",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A large rough rectangular block of packed snow, about two meters tall, standing in a snowy small-town square at blue hour, its sides marked with shovel and scraper strokes, nothing carved on it yet, warm street lights far behind out of focus, gentle snowfall, nobody, the left half of the frame calm and dark blue. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Photorealistic editorial still life for a high-end craft workshop, warm, lively and handmade mood, palette of warm natural wood tones, soft cream and deep walnut brown, soft natural light raking across the textures, tactile fresh pine shavings, rough bark and pale sawdust, set in the Laurentian mountains of Quebec on a calm day, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/salon-chalet",
+      "fichier": "salon-chalet.png",
+      "page": "toiles",
+      "emplacement": "Dans votre décor : mur vide où la toile choisie est posée par le code",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Straight-on eye-level view of a bright modern chalet living room in the Laurentian mountains, a long low sofa in oatmeal linen against a wide wall of pale whitewashed pine boards, the wall above the sofa completely empty and evenly lit over the central two thirds of the frame, a wool throw, a small side table with a ceramic lamp, a large window on the far right showing a snowy forest, nothing hanging on the wall, no frame, no picture, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, lively and handmade mood, palette of warm natural wood tones, soft cream and deep walnut brown, soft natural light raking across the textures, tactile fresh pine shavings, rough bark and pale sawdust, set in the Laurentian mountains of Quebec on a calm day, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. The Laurentian mountains of Quebec landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/atelier-hiver",
+      "fichier": "atelier-hiver.png",
+      "page": "contact",
+      "emplacement": "Ouverture de la page Contact et commande (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "A small rustic wooden workshop cabin at the edge of a snowy forest at dusk, one warmly lit window, a neat stack of split logs and a few large rough logs resting under the eave, deep snow, smoke from a small chimney, footprints leading to the door, nobody, no sign, no lettering, the left half of the frame open sky and snowy trees. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Photorealistic editorial still life for a high-end craft workshop, warm, lively and handmade mood, palette of warm natural wood tones, soft cream and deep walnut brown, soft natural light raking across the textures, tactile fresh pine shavings, rough bark and pale sawdust, set in the Laurentian mountains of Quebec on a calm day, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. The Laurentian mountains of Quebec landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/atelier-hiver",
+      "fichier": "atelier-hiver-mobile.png",
+      "page": "contact",
+      "emplacement": "Ouverture de la page Contact et commande (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "A small rustic wooden workshop cabin at the edge of a snowy forest at dusk, one warmly lit window, a neat stack of split logs and a few large rough logs resting under the eave, deep snow, smoke from a small chimney, footprints leading to the door, nobody, no sign, no lettering, the left half of the frame open sky and snowy trees. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, lively and handmade mood, palette of warm natural wood tones, soft cream and deep walnut brown, soft natural light raking across the textures, tactile fresh pine shavings, rough bark and pale sawdust, set in the Laurentian mountains of Quebec on a calm day, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. The Laurentian mountains of Quebec landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/page-404",
+      "fichier": "page-404.png",
+      "page": "404",
+      "emplacement": "Image de la page 404",
+      "role": "404",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A thick log resting on a sawhorse, cut halfway through with a chainsaw kerf that drifts sideways in a comically crooked curve, fresh pale wood chips scattered below on packed earth, no chainsaw visible, no people, raking golden light, a gentle touch of humour. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, lively and handmade mood, palette of warm natural wood tones, soft cream and deep walnut brown, soft natural light raking across the textures, tactile fresh pine shavings, rough bark and pale sawdust, set in the Laurentian mountains of Quebec on a calm day, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

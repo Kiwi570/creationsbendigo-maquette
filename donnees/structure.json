@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Créations Bendigo",
+  "url": "https://creationsbendigo-maquette.vercel.app/",
+  "email": "creationsbendigo@hotmail.com",
+  "founder": { "@type": "Person", "name": "Benoit Sauvageau", "alternateName": "Bendigo" },
+  "sameAs": ["https://www.facebook.com/Cr%C3%A9ations-Bendigocom-262792637254850"],
+  "description": "Toiles imprimées des sculptures sur bois, sur neige et des tableaux au pointillisme de Bendigo, signées au dos. Produit québécois."
+}

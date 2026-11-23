@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les toiles : catalogue de Créations Bendigo</title>
+<meta name="description" content="Sculptures sur bois, sur neige, tableaux et murales au pointillisme : choisissez l&#39;image, la version couleur ou noir et blanc, et préparez votre demande.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://creationsbendigo-maquette.vercel.app/toiles">
+<style>:root{--fond:#f2ebdf;--texte:#1e1712;--voile-fond:#241912;--ouverture-fond:#241912;--menu-fond:#241912}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f2ebdf">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Créations Bendigo">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les toiles : catalogue de Créations Bendigo">
+<meta property="og:description" content="Sculptures sur bois, sur neige, tableaux et murales au pointillisme : choisissez l&#39;image, la version couleur ou noir et blanc, et préparez votre demande.">
+<meta property="og:url" content="https://creationsbendigo-maquette.vercel.app/toiles">
+<meta property="og:image" content="https://creationsbendigo-maquette.vercel.app/assets/partage/toiles-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Catalogue des toiles de Créations Bendigo">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Créations Bendigo","url":"https://creationsbendigo-maquette.vercel.app/","email":"creationsbendigo@hotmail.com","founder":{"@type":"Person","name":"Benoit Sauvageau","alternateName":"Bendigo"},"sameAs":["https://www.facebook.com/Cr%C3%A9ations-Bendigocom-262792637254850"],"description":"Toiles imprimées des sculptures sur bois, sur neige et des tableaux au pointillisme de Bendigo, signées au dos. Produit québécois."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="coupe" aria-hidden="true"><span class="voile-trait"></span><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="120" height="81"><span data-voile-libelle>Toiles</span></div></div>
+<div class="ouverture-panneau" data-ouverture data-gouttiere="#241912" aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="280" height="188" data-ouverture-objet>
+  <p class="ouverture-ligne">Le Magicien à la tronçonneuse</p>
+  <span class="ouverture-coupe"></span>
+  <canvas class="ouverture-copeaux" width="10" height="10"></canvas>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Créations Bendigo, accueil">
+      <img src="/assets/images/logo.svg" alt="" width="70" height="47">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/toiles" data-libelle="Toiles" aria-current="page">Toiles</a></li><li><a href="/sculptures" data-libelle="Sculptures">Sculptures</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Commander une toile <span class="demande-compte" data-demande-compte hidden></span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/toiles" class="menu-lien" data-libelle="Toiles" aria-current="page">Toiles</a></li><li style="--i:2"><a href="/sculptures" class="menu-lien" data-libelle="Sculptures">Sculptures</a></li><li style="--i:3"><a href="/artiste" class="menu-lien" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a href="/contact#demande" class="bouton" data-libelle="Contact">Commander une toile</a></p>
+  <p class="menu-courriel">creationsbendigo@hotmail.com</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="toiles-hero" id="debut">
+  <div class="conteneur toiles-hero-tete">
+    <p class="surtitre ouv-el" data-anime="gsap">Catalogue</p>
+    <h1 class="toiles-hero-titre ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">Les toiles</span></span></h1>
+    <div class="toiles-hero-bas">
+      <p class="toiles-hero-texte ouv-el" data-anime="gsap">Sculptures sur bois, sur neige, tableaux au pointillisme : choisissez l&#39;image, sa version en couleur ou en noir et blanc, et ajoutez-la à votre demande.</p>
+      <p class="toiles-hero-actions ouv-el" data-anime="gsap">
+        <a class="bouton" href="#catalogue" data-action-principale data-survol="magnetique">Parcourir le catalogue</a>
+        <span class="hero-info" data-info-cle>Jusqu&#39;à 55 po · signées au dos</span>
+      </p>
+    </div>
+  </div>
+  <div class="toiles-bandeau ouv-visuel" data-iris-centre data-effet="bandeau">
+    <figure class="media toile bandeau-toile" style="--cadrage:50% 50%;aspect-ratio:2000 / 1641">
+  <picture>
+    <img src="/assets/images/toiles/western-lover-1600.webp" srcset="/assets/images/toiles/western-lover-480.webp 480w, /assets/images/toiles/western-lover-800.webp 800w, /assets/images/toiles/western-lover-1200.webp 1200w, /assets/images/toiles/western-lover-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 20vw" alt="Western Lover" width="1600" height="1313" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><figure class="media toile bandeau-toile" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/toiles/revolte-cellulaire-nb-1600.webp" srcset="/assets/images/toiles/revolte-cellulaire-nb-480.webp 480w, /assets/images/toiles/revolte-cellulaire-nb-800.webp 800w, /assets/images/toiles/revolte-cellulaire-nb-1200.webp 1200w, /assets/images/toiles/revolte-cellulaire-nb-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 20vw" alt="Révolte cellulaire, en noir et blanc" width="1600" height="1200" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><figure class="media toile bandeau-toile" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/toiles/dragonlake-1600.webp" srcset="/assets/images/toiles/dragonlake-480.webp 480w, /assets/images/toiles/dragonlake-800.webp 800w, /assets/images/toiles/dragonlake-1200.webp 1200w, /assets/images/toiles/dragonlake-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 20vw" alt="Dragonlake" width="1600" height="1200" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><figure class="media toile bandeau-toile" style="--cadrage:50% 50%;aspect-ratio:1218 / 2000">
+  <picture>
+    <img src="/assets/images/toiles/divinementmains-nb-1200.webp" srcset="/assets/images/toiles/divinementmains-nb-480.webp 480w, /assets/images/toiles/divinementmains-nb-800.webp 800w, /assets/images/toiles/divinementmains-nb-1200.webp 1200w" sizes="(max-width: 760px) 40vw, 20vw" alt="Divinementmains, en noir et blanc" width="1200" height="1970" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><figure class="media toile bandeau-toile" style="--cadrage:50% 50%;aspect-ratio:899 / 1740">
+  <picture>
+    <img src="/assets/images/toiles/cliff-eagle-egg-mind-800.webp" srcset="/assets/images/toiles/cliff-eagle-egg-mind-480.webp 480w, /assets/images/toiles/cliff-eagle-egg-mind-800.webp 800w" sizes="(max-width: 760px) 40vw, 20vw" alt="Cliff eagle egg mind" width="800" height="1548" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="catalogue conteneur" id="catalogue" data-catalogue>
+  <div class="tete-section">
+    <h2 data-anime="lignes">Choisir une toile</h2>
+    <p data-anime>Une sélection de 9 images parmi les 128 en ligne. Vous cherchez une œuvre précise ? Écrivez à Bendigo avec son titre.</p>
+  </div>
+  <div class="filtres" data-anime>
+    <div class="filtres-groupe" role="group" aria-label="Collection">
+      <span class="filtres-titre">Collection</span>
+      <div class="filtres-boutons">
+        <button type="button" class="puce" data-filtre="collection" data-valeur="toutes" aria-pressed="true">Toutes <span class="puce-n" data-filtre-compte="collection:toutes">9</span></button>
+        <button type="button" class="puce" data-filtre="collection" data-valeur="bois" aria-pressed="false">Sculptures sur bois <span class="puce-n" data-filtre-compte="collection:bois">3</span></button><button type="button" class="puce" data-filtre="collection" data-valeur="neige" aria-pressed="false">Sculptures sur neige <span class="puce-n" data-filtre-compte="collection:neige">3</span></button><button type="button" class="puce" data-filtre="collection" data-valeur="tableaux" aria-pressed="false">Tableaux et murales <span class="puce-n" data-filtre-compte="collection:tableaux">3</span></button>
+      </div>
+    </div>
+    <div class="filtres-groupe" role="group" aria-label="Version">
+      <span class="filtres-titre">Version</span>
+      <div class="filtres-boutons">
+        <button type="button" class="puce" data-filtre="version" data-valeur="toutes" aria-pressed="true">Toutes</button>
+        <button type="button" class="puce" data-filtre="version" data-valeur="couleur" aria-pressed="false">Couleur</button>
+        <button type="button" class="puce" data-filtre="version" data-valeur="nb" aria-pressed="false">Noir et blanc</button>
+      </div>
+    </div>
+  </div>
+  <p class="catalogue-compte" aria-live="polite" data-catalogue-compte data-un="1 toile affichée" data-plusieurs="{n} toiles affichées">9 toiles affichées</p>
+  <ul class="catalogue-grille" aria-label="Catalogue des toiles">
+    <li class="carte-toile" id="toile-western-lover" data-id="western-lover" data-collection="bois" data-version="couleur">
+      <a class="carte-toile-image" href="/toiles?voir=western-lover" data-voir="western-lover" data-sans-transition aria-label="Agrandir : Western Lover, Couleur">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:2000 / 1641">
+  <picture>
+    <img src="/assets/images/toiles/western-lover-1600.webp" srcset="/assets/images/toiles/western-lover-480.webp 480w, /assets/images/toiles/western-lover-800.webp 800w, /assets/images/toiles/western-lover-1200.webp 1200w, /assets/images/toiles/western-lover-1600.webp 1600w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1600" height="1313" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Western Lover</h3>
+        <p class="carte-toile-meta"><span>Sculptures sur bois · Couleur</span> <span class="code" title="Codes">mod tag</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="western-lover" data-titre="Western Lover" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-cliff-eagle-egg-mind" data-id="cliff-eagle-egg-mind" data-collection="bois" data-version="couleur">
+      <a class="carte-toile-image" href="/toiles?voir=cliff-eagle-egg-mind" data-voir="cliff-eagle-egg-mind" data-sans-transition aria-label="Agrandir : Cliff eagle egg mind, Couleur">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:899 / 1740">
+  <picture>
+    <img src="/assets/images/toiles/cliff-eagle-egg-mind-800.webp" srcset="/assets/images/toiles/cliff-eagle-egg-mind-480.webp 480w, /assets/images/toiles/cliff-eagle-egg-mind-800.webp 800w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="800" height="1548" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Cliff eagle egg mind</h3>
+        <p class="carte-toile-meta"><span>Sculptures sur bois · Couleur</span> <span class="code" title="Codes">mod tag</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="cliff-eagle-egg-mind" data-titre="Cliff eagle egg mind" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-cliff-eagle-egg-mind-nb" data-id="cliff-eagle-egg-mind-nb" data-collection="bois" data-version="nb">
+      <a class="carte-toile-image" href="/toiles?voir=cliff-eagle-egg-mind-nb" data-voir="cliff-eagle-egg-mind-nb" data-sans-transition aria-label="Agrandir : Cliff eagle egg mind, Noir et blanc">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:899 / 1740">
+  <picture>
+    <img src="/assets/images/toiles/cliff-eagle-egg-mind-nb-800.webp" srcset="/assets/images/toiles/cliff-eagle-egg-mind-nb-480.webp 480w, /assets/images/toiles/cliff-eagle-egg-mind-nb-800.webp 800w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="800" height="1548" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Cliff eagle egg mind</h3>
+        <p class="carte-toile-meta"><span>Sculptures sur bois · Noir et blanc</span> <span class="code" title="Codes">mod tag NB</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="cliff-eagle-egg-mind-nb" data-titre="Cliff eagle egg mind" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-dragonlake" data-id="dragonlake" data-collection="neige" data-version="couleur">
+      <a class="carte-toile-image" href="/toiles?voir=dragonlake" data-voir="dragonlake" data-sans-transition aria-label="Agrandir : Dragonlake, Couleur">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/toiles/dragonlake-1600.webp" srcset="/assets/images/toiles/dragonlake-480.webp 480w, /assets/images/toiles/dragonlake-800.webp 800w, /assets/images/toiles/dragonlake-1200.webp 1200w, /assets/images/toiles/dragonlake-1600.webp 1600w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Dragonlake</h3>
+        <p class="carte-toile-meta"><span>Sculptures sur neige · Couleur</span> <span class="code" title="Codes">mod tag</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="dragonlake" data-titre="Dragonlake" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-dragonlake-nb" data-id="dragonlake-nb" data-collection="neige" data-version="nb">
+      <a class="carte-toile-image" href="/toiles?voir=dragonlake-nb" data-voir="dragonlake-nb" data-sans-transition aria-label="Agrandir : Dragonlake, Noir et blanc">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/toiles/dragonlake-nb-1600.webp" srcset="/assets/images/toiles/dragonlake-nb-480.webp 480w, /assets/images/toiles/dragonlake-nb-800.webp 800w, /assets/images/toiles/dragonlake-nb-1200.webp 1200w, /assets/images/toiles/dragonlake-nb-1600.webp 1600w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Dragonlake</h3>
+        <p class="carte-toile-meta"><span>Sculptures sur neige · Noir et blanc</span> <span class="code" title="Codes">mod tag NB</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="dragonlake-nb" data-titre="Dragonlake" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-divinementmains-nb" data-id="divinementmains-nb" data-collection="neige" data-version="nb">
+      <a class="carte-toile-image" href="/toiles?voir=divinementmains-nb" data-voir="divinementmains-nb" data-sans-transition aria-label="Agrandir : Divinementmains, Noir et blanc">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:1218 / 2000">
+  <picture>
+    <img src="/assets/images/toiles/divinementmains-nb-1200.webp" srcset="/assets/images/toiles/divinementmains-nb-480.webp 480w, /assets/images/toiles/divinementmains-nb-800.webp 800w, /assets/images/toiles/divinementmains-nb-1200.webp 1200w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1200" height="1970" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Divinementmains</h3>
+        <p class="carte-toile-meta"><span>Sculptures sur neige · Noir et blanc</span> <span class="code" title="Codes">mod tag NB</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="divinementmains-nb" data-titre="Divinementmains" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-re-invention-tour-nb" data-id="re-invention-tour-nb" data-collection="tableaux" data-version="nb">
+      <a class="carte-toile-image" href="/toiles?voir=re-invention-tour-nb" data-voir="re-invention-tour-nb" data-sans-transition aria-label="Agrandir : Re Invention Tour, Noir et blanc">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:1654 / 2000">
+  <picture>
+    <img src="/assets/images/toiles/re-invention-tour-nb-1600.webp" srcset="/assets/images/toiles/re-invention-tour-nb-480.webp 480w, /assets/images/toiles/re-invention-tour-nb-800.webp 800w, /assets/images/toiles/re-invention-tour-nb-1200.webp 1200w, /assets/images/toiles/re-invention-tour-nb-1600.webp 1600w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1600" height="1935" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Re Invention Tour</h3>
+        <p class="carte-toile-meta"><span>Tableaux et murales · Noir et blanc</span> <span class="code" title="Codes">mod tag 3D NB</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="re-invention-tour-nb" data-titre="Re Invention Tour" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-revolte-cellulaire-nb" data-id="revolte-cellulaire-nb" data-collection="tableaux" data-version="nb">
+      <a class="carte-toile-image" href="/toiles?voir=revolte-cellulaire-nb" data-voir="revolte-cellulaire-nb" data-sans-transition aria-label="Agrandir : Révolte cellulaire, Noir et blanc">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/toiles/revolte-cellulaire-nb-1600.webp" srcset="/assets/images/toiles/revolte-cellulaire-nb-480.webp 480w, /assets/images/toiles/revolte-cellulaire-nb-800.webp 800w, /assets/images/toiles/revolte-cellulaire-nb-1200.webp 1200w, /assets/images/toiles/revolte-cellulaire-nb-1600.webp 1600w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>Révolte cellulaire</h3>
+        <p class="carte-toile-meta"><span>Tableaux et murales · Noir et blanc</span> <span class="code" title="Codes">mod tag NB</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="revolte-cellulaire-nb" data-titre="Révolte cellulaire" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li><li class="carte-toile" id="toile-humanimal-nb" data-id="humanimal-nb" data-collection="tableaux" data-version="nb">
+      <a class="carte-toile-image" href="/toiles?voir=humanimal-nb" data-voir="humanimal-nb" data-sans-transition aria-label="Agrandir : L&#39;humanimal, Noir et blanc">
+        <figure class="media toile" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/toiles/humanimal-nb-1600.webp" srcset="/assets/images/toiles/humanimal-nb-480.webp 480w, /assets/images/toiles/humanimal-nb-800.webp 800w, /assets/images/toiles/humanimal-nb-1200.webp 1200w, /assets/images/toiles/humanimal-nb-1600.webp 1600w" sizes="(max-width: 760px) 80vw, (max-width: 1100px) 40vw, 26vw" alt="" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </a>
+      <div class="carte-toile-texte">
+        <h3>L&#39;humanimal</h3>
+        <p class="carte-toile-meta"><span>Tableaux et murales · Noir et blanc</span> <span class="code" title="Codes">mod tag NB</span></p>
+        <button type="button" class="bouton bouton--contour bouton-ajouter" data-grille="retour" data-ajouter="humanimal-nb" data-titre="L&#39;humanimal" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span class="bouton-plus" aria-hidden="true"></span><span data-libelle-bouton>Ajouter à ma demande</span></button>
+      </div>
+    </li>
+  </ul>
+  <p class="catalogue-aucune" data-catalogue-aucune hidden>Aucune toile dans cette sélection.</p>
+  <p class="catalogue-aide">NB : noir et blanc. Les codes mod, tag et 3D se recopient tels quels dans votre courriel.</p>
+</section>
+<section class="decor" id="decor">
+  <div class="conteneur decor-grille" data-effet="decor">
+    <div class="decor-texte">
+      <p class="surtitre" data-anime>Dans votre décor</p>
+      <h2 data-anime="lignes">Essayez une toile au mur</h2>
+      <p data-anime>Choisissez une toile : elle prend place au-dessus du canapé. Les proportions sont indicatives, la taille se choisit avec Bendigo.</p>
+      <div class="decor-choix" role="group" aria-label="Toile au mur">
+        <button type="button" class="decor-bouton" data-decor="western-lover" aria-pressed="false"><img src="/assets/images/toiles/western-lover-480.webp" alt="" width="56" height="46" loading="lazy"><span>Western Lover</span></button><button type="button" class="decor-bouton" data-decor="cliff-eagle-egg-mind" aria-pressed="false"><img src="/assets/images/toiles/cliff-eagle-egg-mind-480.webp" alt="" width="56" height="108" loading="lazy"><span>Cliff eagle egg mind</span></button><button type="button" class="decor-bouton" data-decor="dragonlake" aria-pressed="false"><img src="/assets/images/toiles/dragonlake-480.webp" alt="" width="56" height="42" loading="lazy"><span>Dragonlake</span></button><button type="button" class="decor-bouton" data-decor="re-invention-tour-nb" aria-pressed="false"><img src="/assets/images/toiles/re-invention-tour-nb-480.webp" alt="" width="56" height="68" loading="lazy"><span>Re Invention Tour NB</span></button><button type="button" class="decor-bouton" data-decor="humanimal-nb" aria-pressed="false"><img src="/assets/images/toiles/humanimal-nb-480.webp" alt="" width="56" height="42" loading="lazy"><span>L&#39;humanimal NB</span></button>
+      </div>
+      <p class="decor-legende" data-decor-legende aria-live="polite"></p>
+    </div>
+    <div class="decor-scene">
+      <figure class="media decor-salon" data-grok style="--cadrage:50% 50%;aspect-ratio:1600 / 1074">
+  <picture>
+    <img src="/assets/images/grok/salon-chalet-1280.webp" srcset="/assets/images/grok/salon-chalet-640.webp 640w, /assets/images/grok/salon-chalet-1280.webp 1280w, /assets/images/grok/salon-chalet-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 60vw" alt="Salon de chalet, mur de planches clair au-dessus d&#39;un canapé" width="1280" height="859" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <div class="decor-toile" aria-hidden="true"><img src="/assets/images/toiles/dragonlake-800.webp" alt="" width="800" height="600" loading="lazy"></div>
+    </div>
+  </div>
+  <div class="conteneur mises">
+    <div class="tete-section">
+      <h3 data-anime>Mises en situation par Bendigo</h3>
+      <p data-anime>Ses propres montages, pour imaginer la taille et l&#39;effet d&#39;une toile.</p>
+    </div>
+    <ul class="mises-grille" data-anime="cascade">
+      <li><figure class="media " style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/decor/salon-clair-1400.webp" srcset="/assets/images/decor/salon-clair-640.webp 640w, /assets/images/decor/salon-clair-1000.webp 1000w, /assets/images/decor/salon-clair-1400.webp 1400w" sizes="(max-width: 760px) 100vw, 33vw" alt="Toile de Bendigo au-dessus d’un canapé gris, dans un salon clair" width="1400" height="933" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+      <li><figure class="media " style="--cadrage:50% 30%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/decor/chambre-1400.webp" srcset="/assets/images/decor/chambre-640.webp 640w, /assets/images/decor/chambre-1000.webp 1000w, /assets/images/decor/chambre-1400.webp 1400w" sizes="(max-width: 760px) 100vw, 33vw" alt="Toile de dauphins accrochée au-dessus d’un lit" width="1400" height="1465" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+      <li><figure class="media " style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/decor/foyer-1400.webp" srcset="/assets/images/decor/foyer-640.webp 640w, /assets/images/decor/foyer-1000.webp 1000w, /assets/images/decor/foyer-1400.webp 1400w" sizes="(max-width: 760px) 100vw, 33vw" alt="Toile de Bendigo au-dessus d’un foyer" width="1400" height="912" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="fiche conteneur" id="la-toile">
+  <figure class="media fiche-media" data-fx="parallaxe" style="--cadrage:50% 50%;aspect-ratio:1397 / 2000">
+  <picture>
+    <img src="/assets/images/decor/aigle-entree-1000.webp" srcset="/assets/images/decor/aigle-entree-640.webp 640w, /assets/images/decor/aigle-entree-1000.webp 1000w" sizes="(max-width: 760px) 100vw, 40vw" alt="Grande toile verticale d’un aigle sculpté, au-dessus d’un banc" width="1000" height="1432" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="fiche-texte">
+    <h2 data-anime="lignes">La toile, en détail</h2>
+    <ul class="fiche-liste" data-anime="cascade">
+      <li>Toile imprimée sur canevas, en couleur ou en noir et blanc</li><li>Jusqu&#39;à environ 55 po sur le plus grand côté ; sinon, Bendigo indique la taille maximale</li><li>Cadre en MDF rigide de 1,5 po de profondeur et de 3/4 po d&#39;épaisseur</li><li>Bordures miroir : l&#39;image entière reste visible sur la face</li><li>Encre HP Latex sans solvant, écoresponsable</li><li>Lavable au linge doux et au savon</li><li>Signée au dos, imprimée par un fournisseur québécois</li>
+    </ul>
+    <p class="fiche-prix" data-anime>Prix confirmé par courriel avec votre commande.</p>
+  </div>
+</section>
+<section class="fin fin--sombre fin--court" id="fin">
+  <div class="conteneur fin-ligne">
+    <div>
+      <h2 data-anime="lignes">Votre sélection est prête ?</h2>
+      <p data-anime>Les toiles ajoutées vous attendent dans votre demande. Il ne reste qu&#39;à préparer le courriel.</p>
+    </div>
+    <p class="actions" data-anime><a href="/contact#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Voir ma demande <span class="demande-compte" data-demande-compte hidden></span></a></p>
+  </div>
+</section>
+<div class="visionneuse" data-visionneuse data-recouvrement role="dialog" aria-modal="true" aria-label="Agrandir" hidden>
+  <div class="vis-cadre">
+    <img class="vis-image" src="/assets/images/toiles/dragonlake-1200.webp" alt="" width="1200" height="900">
+    <div class="vis-infos">
+      <p class="vis-titre"></p>
+      <p><span class="code vis-codes"></span></p>
+      <button type="button" class="bouton vis-ajouter" data-ajouter="" data-titre="" aria-pressed="false" data-libelle-ajouter="Ajouter à ma demande" data-libelle-ajoutee="Dans ma demande"><span data-libelle-bouton>Ajouter à ma demande</span></button>
+    </div>
+  </div>
+  <button type="button" class="vis-bouton vis-prec" aria-label="Image précédente">←</button>
+  <button type="button" class="vis-bouton vis-suiv" aria-label="Image suivante">→</button>
+  <button type="button" class="vis-bouton vis-fermer" aria-label="Fermer l&#39;image">✕</button>
+</div>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-clair.svg" alt="Créations Bendigo" width="150" height="101" loading="lazy">
+      <p>Toiles imprimées des sculptures et tableaux de Benoit Sauvageau, dit Bendigo. Produit 100 % québécois.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire</p>
+      <p><a href="mailto:creationsbendigo@hotmail.com">creationsbendigo@hotmail.com</a></p>
+      <p><a href="https://www.facebook.com/Cr%C3%A9ations-Bendigocom-262792637254850" target="_blank" rel="noopener">Créations Bendigo sur Facebook</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/toiles" data-libelle="Toiles" aria-current="page">Toiles</a></li><li><a href="/sculptures" data-libelle="Sculptures">Sculptures</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p>
+    <p>Maquette de présentation : la demande prépare un courriel, rien n&#39;est envoyé par le site.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="mailto:creationsbendigo@hotmail.com">Écrire</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Ma demande <span class="demande-compte" data-demande-compte hidden></span></a>
+</div>
+<p class="visuellement-cache" data-annonce aria-live="polite"></p>
+<script type="application/json" id="donnees-toiles">[{"id":"western-lover","titre":"Western Lover","collection":"bois","version":"couleur","codes":"mod tag","image":"toiles/western-lover","ratio":"2000 / 1641","proportion":1.219},{"id":"cliff-eagle-egg-mind","titre":"Cliff eagle egg mind","collection":"bois","version":"couleur","codes":"mod tag","image":"toiles/cliff-eagle-egg-mind","ratio":"899 / 1740","proportion":0.517},{"id":"cliff-eagle-egg-mind-nb","titre":"Cliff eagle egg mind","collection":"bois","version":"nb","codes":"mod tag NB","image":"toiles/cliff-eagle-egg-mind-nb","ratio":"899 / 1740","proportion":0.517},{"id":"dragonlake","titre":"Dragonlake","collection":"neige","version":"couleur","codes":"mod tag","image":"toiles/dragonlake","ratio":"4 / 3","proportion":1.333},{"id":"dragonlake-nb","titre":"Dragonlake","collection":"neige","version":"nb","codes":"mod tag NB","image":"toiles/dragonlake-nb","ratio":"4 / 3","proportion":1.333},{"id":"divinementmains-nb","titre":"Divinementmains","collection":"neige","version":"nb","codes":"mod tag NB","image":"toiles/divinementmains-nb","ratio":"1218 / 2000","proportion":0.609},{"id":"re-invention-tour-nb","titre":"Re Invention Tour","collection":"tableaux","version":"nb","codes":"mod tag 3D NB","image":"toiles/re-invention-tour-nb","ratio":"1654 / 2000","proportion":0.827},{"id":"revolte-cellulaire-nb","titre":"Révolte cellulaire","collection":"tableaux","version":"nb","codes":"mod tag NB","image":"toiles/revolte-cellulaire-nb","ratio":"4 / 3","proportion":1.333},{"id":"humanimal-nb","titre":"L'humanimal","collection":"tableaux","version":"nb","codes":"mod tag NB","image":"toiles/humanimal-nb","ratio":"4 / 3","proportion":1.333}]</script>
+</body>
+</html>

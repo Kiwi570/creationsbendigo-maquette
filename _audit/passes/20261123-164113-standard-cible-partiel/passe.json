@@ -1,0 +1,16 @@
+{
+ "id": "20261123-164113-standard-cible-partiel",
+ "date": "2026-11-23T16:43:14.552Z",
+ "niveau": "standard",
+ "pages": "/,/404,/artiste,/contact,/sculptures,/toiles",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 12,
+ "aRegarder": 11,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

@@ -1,0 +1,3898 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/creationsbendigo-recu/creationsbendigo-com.png",
+    "role": "logo",
+    "alt": "Créations Bendigo",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "3ff04a8d28757f80",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 10226,
+      "logo-480.webp": 26202
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Créations Bendigo\", sizes: '240px' })"
+  },
+  "toiles/western-lover": {
+    "nom": "toiles/western-lover",
+    "source": "recu/creationsbendigo-recu/western-lover-mod-tag.png",
+    "role": "produit",
+    "alt": "Western Lover : banc sculpté à la tronçonneuse, visage barbu sous un chapeau de cowboy",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "0111ff57f3218482",
+    "ratio": "2000:1641",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "40% 37%",
+    "sujet": {
+      "x": 16.6,
+      "y": 10.8,
+      "l": 66.6,
+      "h": 67.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1641,
+      "source": [
+        2000,
+        1641
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/western-lover-480.webp",
+      "toiles/western-lover-800.webp",
+      "toiles/western-lover-1200.webp",
+      "toiles/western-lover-1600.webp"
+    ],
+    "poids": {
+      "toiles/western-lover-480.webp": 16842,
+      "toiles/western-lover-800.webp": 31830,
+      "toiles/western-lover-1200.webp": 53504,
+      "toiles/western-lover-1600.webp": 77356
+    },
+    "media": "c.media({ nom: 'toiles/western-lover', alt: \"Western Lover : banc sculpté à la tronçonneuse, visage barbu sous un chapeau de cowboy\", cadrage: '40% 37%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1641' })"
+  },
+  "toiles/cliff-eagle-egg-mind": {
+    "nom": "toiles/cliff-eagle-egg-mind",
+    "source": "recu/creationsbendigo-recu/cliff-eagle-egg-mind-2.png",
+    "role": "produit",
+    "alt": "Cliff eagle egg mind : aigle sculpté dans le bois, ailes déployées au sommet d’une colonne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "eb61054a4ed8c514",
+    "ratio": "899:1740",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "61% 40%",
+    "sujet": {
+      "x": 37.1,
+      "y": 10.5,
+      "l": 38,
+      "h": 68.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 899,
+      "height": 1740,
+      "source": [
+        899,
+        1740
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "899 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/cliff-eagle-egg-mind-480.webp",
+      "toiles/cliff-eagle-egg-mind-800.webp"
+    ],
+    "poids": {
+      "toiles/cliff-eagle-egg-mind-480.webp": 48080,
+      "toiles/cliff-eagle-egg-mind-800.webp": 92500
+    },
+    "media": "c.media({ nom: 'toiles/cliff-eagle-egg-mind', alt: \"Cliff eagle egg mind : aigle sculpté dans le bois, ailes déployées au sommet d’une colonne\", cadrage: '61% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '899 / 1740' })"
+  },
+  "toiles/cliff-eagle-egg-mind-nb": {
+    "nom": "toiles/cliff-eagle-egg-mind-nb",
+    "source": "recu/creationsbendigo-recu/cliff-eagle-egg-mind.png",
+    "role": "produit",
+    "alt": "Cliff eagle egg mind, en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b0b0ce61a0d31077",
+    "ratio": "899:1740",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "61% 45%",
+    "sujet": {
+      "x": 37.6,
+      "y": 10.9,
+      "l": 36.3,
+      "h": 88.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 899,
+      "height": 1740,
+      "source": [
+        899,
+        1740
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "899 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/cliff-eagle-egg-mind-nb-480.webp",
+      "toiles/cliff-eagle-egg-mind-nb-800.webp"
+    ],
+    "poids": {
+      "toiles/cliff-eagle-egg-mind-nb-480.webp": 38494,
+      "toiles/cliff-eagle-egg-mind-nb-800.webp": 75978
+    },
+    "media": "c.media({ nom: 'toiles/cliff-eagle-egg-mind-nb', alt: \"Cliff eagle egg mind, en noir et blanc\", cadrage: '61% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '899 / 1740' })"
+  },
+  "toiles/dragonlake": {
+    "nom": "toiles/dragonlake",
+    "source": "recu/creationsbendigo-recu/dragonlake-mod-tag.png",
+    "role": "produit",
+    "alt": "Dragonlake : dragon sculpté dans la neige, la nuit, sous une lumière bleue",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "537c50f4b9bbd302",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 47%",
+    "sujet": {
+      "x": 16.4,
+      "y": 16.8,
+      "l": 75.9,
+      "h": 73.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/dragonlake-480.webp",
+      "toiles/dragonlake-800.webp",
+      "toiles/dragonlake-1200.webp",
+      "toiles/dragonlake-1600.webp"
+    ],
+    "poids": {
+      "toiles/dragonlake-480.webp": 19174,
+      "toiles/dragonlake-800.webp": 40472,
+      "toiles/dragonlake-1200.webp": 69418,
+      "toiles/dragonlake-1600.webp": 103382
+    },
+    "media": "c.media({ nom: 'toiles/dragonlake', alt: \"Dragonlake : dragon sculpté dans la neige, la nuit, sous une lumière bleue\", cadrage: '51% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "toiles/dragonlake-nb": {
+    "nom": "toiles/dragonlake-nb",
+    "source": "recu/creationsbendigo-recu/dragonlake-mod-tag-nb.png",
+    "role": "produit",
+    "alt": "Dragonlake, en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "a985d5a388e7bd2b",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 47%",
+    "sujet": {
+      "x": 16.5,
+      "y": 17.2,
+      "l": 72.4,
+      "h": 72.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/dragonlake-nb-480.webp",
+      "toiles/dragonlake-nb-800.webp",
+      "toiles/dragonlake-nb-1200.webp",
+      "toiles/dragonlake-nb-1600.webp"
+    ],
+    "poids": {
+      "toiles/dragonlake-nb-480.webp": 16182,
+      "toiles/dragonlake-nb-800.webp": 33350,
+      "toiles/dragonlake-nb-1200.webp": 58876,
+      "toiles/dragonlake-nb-1600.webp": 84564
+    },
+    "media": "c.media({ nom: 'toiles/dragonlake-nb', alt: \"Dragonlake, en noir et blanc\", cadrage: '52% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1500' })"
+  },
+  "toiles/divinementmains-nb": {
+    "nom": "toiles/divinementmains-nb",
+    "source": "recu/creationsbendigo-recu/divinementmains-mod-tag-nb.png",
+    "role": "produit",
+    "alt": "Divinementmains : deux mains de neige qui portent un enfant, en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "07e7160b0c016ba6",
+    "ratio": "1218:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "55% 25%",
+    "sujet": {
+      "x": 40,
+      "y": 15,
+      "l": 29.7,
+      "h": 23.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1218,
+      "height": 2000,
+      "source": [
+        1218,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1218 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/divinementmains-nb-480.webp",
+      "toiles/divinementmains-nb-800.webp",
+      "toiles/divinementmains-nb-1200.webp"
+    ],
+    "poids": {
+      "toiles/divinementmains-nb-480.webp": 23670,
+      "toiles/divinementmains-nb-800.webp": 49194,
+      "toiles/divinementmains-nb-1200.webp": 85558
+    },
+    "media": "c.media({ nom: 'toiles/divinementmains-nb', alt: \"Divinementmains : deux mains de neige qui portent un enfant, en noir et blanc\", cadrage: '55% 25%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1218 / 2000' })"
+  },
+  "toiles/re-invention-tour-nb": {
+    "nom": "toiles/re-invention-tour-nb",
+    "source": "recu/creationsbendigo-recu/re-invention-tour-mod.png",
+    "role": "produit",
+    "alt": "Re Invention Tour : guitariste et lettres en pointillisme blanc sur fond noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "0fe025178cbde8e5",
+    "ratio": "1654:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 59%",
+    "sujet": {
+      "x": 24.7,
+      "y": 44.9,
+      "l": 46.7,
+      "h": 41.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1654,
+      "height": 2000,
+      "source": [
+        1654,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/re-invention-tour-nb-480.webp",
+      "toiles/re-invention-tour-nb-800.webp",
+      "toiles/re-invention-tour-nb-1200.webp",
+      "toiles/re-invention-tour-nb-1600.webp"
+    ],
+    "poids": {
+      "toiles/re-invention-tour-nb-480.webp": 46140,
+      "toiles/re-invention-tour-nb-800.webp": 85976,
+      "toiles/re-invention-tour-nb-1200.webp": 135638,
+      "toiles/re-invention-tour-nb-1600.webp": 189314
+    },
+    "media": "c.media({ nom: 'toiles/re-invention-tour-nb', alt: \"Re Invention Tour : guitariste et lettres en pointillisme blanc sur fond noir\", cadrage: '50% 59%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1654 / 2000' })"
+  },
+  "toiles/revolte-cellulaire-nb": {
+    "nom": "toiles/revolte-cellulaire-nb",
+    "source": "recu/creationsbendigo-recu/revolte-cellulaire-mod-tag.png",
+    "role": "produit",
+    "alt": "Révolte cellulaire : un félin et un visage qui se font face, en pointillisme sur fond noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "43527f9efcdaad1b",
+    "ratio": "1600:1200",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 58%",
+    "sujet": {
+      "x": 0.8,
+      "y": 29.8,
+      "l": 85.1,
+      "h": 62.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1200,
+      "source": [
+        1600,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/revolte-cellulaire-nb-480.webp",
+      "toiles/revolte-cellulaire-nb-800.webp",
+      "toiles/revolte-cellulaire-nb-1200.webp",
+      "toiles/revolte-cellulaire-nb-1600.webp"
+    ],
+    "poids": {
+      "toiles/revolte-cellulaire-nb-480.webp": 42300,
+      "toiles/revolte-cellulaire-nb-800.webp": 91694,
+      "toiles/revolte-cellulaire-nb-1200.webp": 157922,
+      "toiles/revolte-cellulaire-nb-1600.webp": 216850
+    },
+    "media": "c.media({ nom: 'toiles/revolte-cellulaire-nb', alt: \"Révolte cellulaire : un félin et un visage qui se font face, en pointillisme sur fond noir\", cadrage: '50% 58%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1600 / 1200' })"
+  },
+  "toiles/humanimal-nb": {
+    "nom": "toiles/humanimal-nb",
+    "source": "recu/creationsbendigo-recu/humanimal-mod-tag-nb.png",
+    "role": "produit",
+    "alt": "L’humanimal : un félin rugissant face à un visage d’homme, en pointillisme blanc sur noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "9161667c159bdb21",
+    "ratio": "1600:1200",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 5.3,
+      "y": 15.1,
+      "l": 78.1,
+      "h": 76.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1200,
+      "source": [
+        1600,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toiles/humanimal-nb-480.webp",
+      "toiles/humanimal-nb-800.webp",
+      "toiles/humanimal-nb-1200.webp",
+      "toiles/humanimal-nb-1600.webp"
+    ],
+    "poids": {
+      "toiles/humanimal-nb-480.webp": 33002,
+      "toiles/humanimal-nb-800.webp": 76364,
+      "toiles/humanimal-nb-1200.webp": 130342,
+      "toiles/humanimal-nb-1600.webp": 177940
+    },
+    "media": "c.media({ nom: 'toiles/humanimal-nb', alt: \"L’humanimal : un félin rugissant face à un visage d’homme, en pointillisme blanc sur noir\", cadrage: '50% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1600 / 1200' })"
+  },
+  "decor/salon-pierre": {
+    "nom": "decor/salon-pierre",
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-3.jpg",
+    "role": "galerie",
+    "alt": "Toile de Bendigo accrochée au mur de pierre d’un salon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "03a726602f8048e7",
+    "ratio": "2000:1506",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "53% 47%",
+    "sujet": {
+      "x": 41.4,
+      "y": 38,
+      "l": 28.9,
+      "h": 27.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1506,
+      "source": [
+        2000,
+        1506
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "decor/salon-pierre-640.webp",
+      "decor/salon-pierre-1000.webp",
+      "decor/salon-pierre-1400.webp"
+    ],
+    "poids": {
+      "decor/salon-pierre-640.webp": 48856,
+      "decor/salon-pierre-1000.webp": 108058,
+      "decor/salon-pierre-1400.webp": 188594
+    },
+    "media": "c.media({ nom: 'decor/salon-pierre', alt: \"Toile de Bendigo accrochée au mur de pierre d’un salon\", cadrage: '53% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1506' })"
+  },
+  "decor/salon-clair": {
+    "nom": "decor/salon-clair",
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo.jpg",
+    "role": "galerie",
+    "alt": "Toile de Bendigo au-dessus d’un canapé gris, dans un salon clair",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4a283324ae34c782",
+    "ratio": "2000:1333",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "40% 31%",
+    "sujet": {
+      "x": 27.7,
+      "y": 25.4,
+      "l": 25.8,
+      "h": 19.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "decor/salon-clair-640.webp",
+      "decor/salon-clair-1000.webp",
+      "decor/salon-clair-1400.webp"
+    ],
+    "poids": {
+      "decor/salon-clair-640.webp": 53438,
+      "decor/salon-clair-1000.webp": 105460,
+      "decor/salon-clair-1400.webp": 170052
+    },
+    "media": "c.media({ nom: 'decor/salon-clair', alt: \"Toile de Bendigo au-dessus d’un canapé gris, dans un salon clair\", cadrage: '40% 31%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1333' })"
+  },
+  "decor/chambre": {
+    "nom": "decor/chambre",
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-7.jpg",
+    "role": "galerie",
+    "alt": "Toile de dauphins accrochée au-dessus d’un lit",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8ae30be188e383cd",
+    "ratio": "1911:2000",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "64% 66%",
+    "sujet": {
+      "x": 34.4,
+      "y": 55.4,
+      "l": 59,
+      "h": 40.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1911,
+      "height": 2000,
+      "source": [
+        1911,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "decor/chambre-640.webp",
+      "decor/chambre-1000.webp",
+      "decor/chambre-1400.webp"
+    ],
+    "poids": {
+      "decor/chambre-640.webp": 49954,
+      "decor/chambre-1000.webp": 112798,
+      "decor/chambre-1400.webp": 207028
+    },
+    "media": "c.media({ nom: 'decor/chambre', alt: \"Toile de dauphins accrochée au-dessus d’un lit\", cadrage: '64% 66%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1911 / 2000' })"
+  },
+  "decor/aigle-entree": {
+    "nom": "decor/aigle-entree",
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-8.jpg",
+    "role": "galerie",
+    "alt": "Grande toile verticale d’un aigle sculpté, au-dessus d’un banc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6dfcdb48c40455c4",
+    "ratio": "1397:2000",
+    "largeurs": [
+      640,
+      1000
+    ],
+    "mobile": null,
+    "cadrage": "43% 40%",
+    "sujet": {
+      "x": 10.3,
+      "y": 13.5,
+      "l": 75.7,
+      "h": 72.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1397,
+      "height": 2000,
+      "source": [
+        1397,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "decor/aigle-entree-640.webp",
+      "decor/aigle-entree-1000.webp"
+    ],
+    "poids": {
+      "decor/aigle-entree-640.webp": 77774,
+      "decor/aigle-entree-1000.webp": 147152
+    },
+    "media": "c.media({ nom: 'decor/aigle-entree', alt: \"Grande toile verticale d’un aigle sculpté, au-dessus d’un banc\", cadrage: '43% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1397 / 2000' })"
+  },
+  "decor/foyer": {
+    "nom": "decor/foyer",
+    "source": "recu/creationsbendigo-recu/bendigo-decor-clic-photo-9.jpg",
+    "role": "galerie",
+    "alt": "Toile de Bendigo au-dessus d’un foyer, dans un salon aux arches blanches",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4a36fbb7bff02118",
+    "ratio": "1892:1232",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "49% 43%",
+    "sujet": {
+      "x": 38.2,
+      "y": 17.6,
+      "l": 22.1,
+      "h": 57.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1892,
+      "height": 1232,
+      "source": [
+        1892,
+        1232
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "decor/foyer-640.webp",
+      "decor/foyer-1000.webp",
+      "decor/foyer-1400.webp"
+    ],
+    "poids": {
+      "decor/foyer-640.webp": 23168,
+      "decor/foyer-1000.webp": 54090,
+      "decor/foyer-1400.webp": 104126
+    },
+    "media": "c.media({ nom: 'decor/foyer', alt: \"Toile de Bendigo au-dessus d’un foyer, dans un salon aux arches blanches\", cadrage: '49% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1892 / 1232' })"
+  },
+  "sculptures/ermitage-ours": {
+    "nom": "sculptures/ermitage-ours",
+    "source": "recu/creationsbendigo-recu/ermitage-lac-ste-adele.jpg",
+    "role": "galerie",
+    "alt": "Ours géant sculpté dans une souche haute, à côté du sculpteur, à l’Ermitage sur le lac Sainte-Adèle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6f69aa77e02bd8c9",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "65% 70%",
+    "sujet": {
+      "x": 57.2,
+      "y": 61.5,
+      "l": 20,
+      "h": 36.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/ermitage-ours-480.webp",
+      "sculptures/ermitage-ours-800.webp",
+      "sculptures/ermitage-ours-1200.webp",
+      "sculptures/ermitage-ours-1500.webp"
+    ],
+    "poids": {
+      "sculptures/ermitage-ours-480.webp": 75704,
+      "sculptures/ermitage-ours-800.webp": 191116,
+      "sculptures/ermitage-ours-1200.webp": 304624,
+      "sculptures/ermitage-ours-1500.webp": 344350
+    },
+    "media": "c.media({ nom: 'sculptures/ermitage-ours', alt: \"Ours géant sculpté dans une souche haute, à côté du sculpteur, à l’Ermitage sur le lac Sainte-Adèle\", cadrage: '65% 70%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/maman-bebe-ours": {
+    "nom": "sculptures/maman-bebe-ours",
+    "source": "recu/creationsbendigo-recu/maman-bebe-ours.jpg",
+    "role": "galerie",
+    "alt": "Maman et bébé ours sculptés dans une souche, au bord d’une forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "27aa0799199970da",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "63% 66%",
+    "sujet": {
+      "x": 53.4,
+      "y": 55.9,
+      "l": 20.7,
+      "h": 39.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/maman-bebe-ours-480.webp",
+      "sculptures/maman-bebe-ours-800.webp",
+      "sculptures/maman-bebe-ours-1200.webp",
+      "sculptures/maman-bebe-ours-1500.webp"
+    ],
+    "poids": {
+      "sculptures/maman-bebe-ours-480.webp": 85952,
+      "sculptures/maman-bebe-ours-800.webp": 202802,
+      "sculptures/maman-bebe-ours-1200.webp": 296768,
+      "sculptures/maman-bebe-ours-1500.webp": 317556
+    },
+    "media": "c.media({ nom: 'sculptures/maman-bebe-ours', alt: \"Maman et bébé ours sculptés dans une souche, au bord d’une forêt\", cadrage: '63% 66%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/souche-ours-masque": {
+    "nom": "sculptures/souche-ours-masque",
+    "source": "recu/creationsbendigo-recu/souche-sculpte-11.jpg",
+    "role": "galerie",
+    "alt": "Souche sculptée : un ours au-dessus d’un masque peint, sous des fanions colorés",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e0c22f5877fcfaf0",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "49% 47%",
+    "sujet": {
+      "x": 23.8,
+      "y": 0,
+      "l": 50.2,
+      "h": 99.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/souche-ours-masque-480.webp",
+      "sculptures/souche-ours-masque-800.webp",
+      "sculptures/souche-ours-masque-1200.webp",
+      "sculptures/souche-ours-masque-1500.webp"
+    ],
+    "poids": {
+      "sculptures/souche-ours-masque-480.webp": 98132,
+      "sculptures/souche-ours-masque-800.webp": 223310,
+      "sculptures/souche-ours-masque-1200.webp": 286702,
+      "sculptures/souche-ours-masque-1500.webp": 360306
+    },
+    "media": "c.media({ nom: 'sculptures/souche-ours-masque', alt: \"Souche sculptée : un ours au-dessus d’un masque peint, sous des fanions colorés\", cadrage: '49% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/souche-tigre": {
+    "nom": "sculptures/souche-tigre",
+    "source": "recu/creationsbendigo-recu/souche-sculpte-4.jpg",
+    "role": "galerie",
+    "alt": "Tête de tigre sculptée à la tronçonneuse, vue de près",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "0556509757fe0234",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 15.7,
+      "y": 22,
+      "l": 65.4,
+      "h": 73.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/souche-tigre-480.webp",
+      "sculptures/souche-tigre-800.webp",
+      "sculptures/souche-tigre-1200.webp",
+      "sculptures/souche-tigre-1500.webp"
+    ],
+    "poids": {
+      "sculptures/souche-tigre-480.webp": 42728,
+      "sculptures/souche-tigre-800.webp": 96416,
+      "sculptures/souche-tigre-1200.webp": 173946,
+      "sculptures/souche-tigre-1500.webp": 236602
+    },
+    "media": "c.media({ nom: 'sculptures/souche-tigre', alt: \"Tête de tigre sculptée à la tronçonneuse, vue de près\", cadrage: '49% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/totem": {
+    "nom": "sculptures/totem",
+    "source": "recu/creationsbendigo-recu/totem-benoit-beauchamps.jpg",
+    "role": "galerie",
+    "alt": "Totem sculpté, ailes déployées et visages peints, dans un jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9cc39ff7b53cc7bc",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "49% 47%",
+    "sujet": {
+      "x": 37.3,
+      "y": 11.4,
+      "l": 21.5,
+      "h": 82.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/totem-480.webp",
+      "sculptures/totem-800.webp",
+      "sculptures/totem-1200.webp",
+      "sculptures/totem-1500.webp"
+    ],
+    "poids": {
+      "sculptures/totem-480.webp": 90118,
+      "sculptures/totem-800.webp": 225904,
+      "sculptures/totem-1200.webp": 287802,
+      "sculptures/totem-1500.webp": 405120
+    },
+    "media": "c.media({ nom: 'sculptures/totem', alt: \"Totem sculpté, ailes déployées et visages peints, dans un jardin\", cadrage: '49% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/tornade-minerve": {
+    "nom": "sculptures/tornade-minerve",
+    "source": "recu/creationsbendigo-recu/tornade-minerve.jpg",
+    "role": "galerie",
+    "alt": "Souches laissées par une tornade à La Minerve, avant la sculpture",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5022abfe581cb3ed",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "41% 51%",
+    "sujet": {
+      "x": 34.3,
+      "y": 39,
+      "l": 11.4,
+      "h": 47.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/tornade-minerve-480.webp",
+      "sculptures/tornade-minerve-800.webp",
+      "sculptures/tornade-minerve-1200.webp",
+      "sculptures/tornade-minerve-1500.webp"
+    ],
+    "poids": {
+      "sculptures/tornade-minerve-480.webp": 35878,
+      "sculptures/tornade-minerve-800.webp": 100450,
+      "sculptures/tornade-minerve-1200.webp": 223284,
+      "sculptures/tornade-minerve-1500.webp": 275882
+    },
+    "media": "c.media({ nom: 'sculptures/tornade-minerve', alt: \"Souches laissées par une tornade à La Minerve, avant la sculpture\", cadrage: '41% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/ours-chemises": {
+    "nom": "sculptures/ours-chemises",
+    "source": "recu/creationsbendigo-recu/souche-sculpte-8.jpg",
+    "role": "galerie",
+    "alt": "Trois ours en chemise à carreaux sculptés dans le bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a933eafabaaa1e90",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "33% 46%",
+    "sujet": {
+      "x": 11.4,
+      "y": 31.1,
+      "l": 43.9,
+      "h": 48.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/ours-chemises-480.webp",
+      "sculptures/ours-chemises-800.webp",
+      "sculptures/ours-chemises-1200.webp",
+      "sculptures/ours-chemises-1500.webp"
+    ],
+    "poids": {
+      "sculptures/ours-chemises-480.webp": 62998,
+      "sculptures/ours-chemises-800.webp": 185342,
+      "sculptures/ours-chemises-1200.webp": 297138,
+      "sculptures/ours-chemises-1500.webp": 446390
+    },
+    "media": "c.media({ nom: 'sculptures/ours-chemises', alt: \"Trois ours en chemise à carreaux sculptés dans le bois\", cadrage: '33% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/ours-hache": {
+    "nom": "sculptures/ours-hache",
+    "source": "recu/creationsbendigo-recu/souche-sculpte-6.jpg",
+    "role": "galerie",
+    "alt": "Ours en chemise à carreaux tenant une hache, sculpté dans le bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "aaa45034ed16190d",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "54% 42%",
+    "sujet": {
+      "x": 41.1,
+      "y": 27.2,
+      "l": 26.6,
+      "h": 50.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/ours-hache-480.webp",
+      "sculptures/ours-hache-800.webp",
+      "sculptures/ours-hache-1200.webp",
+      "sculptures/ours-hache-1500.webp"
+    ],
+    "poids": {
+      "sculptures/ours-hache-480.webp": 110160,
+      "sculptures/ours-hache-800.webp": 274346,
+      "sculptures/ours-hache-1200.webp": 495078,
+      "sculptures/ours-hache-1500.webp": 718068
+    },
+    "media": "c.media({ nom: 'sculptures/ours-hache', alt: \"Ours en chemise à carreaux tenant une hache, sculpté dans le bois\", cadrage: '54% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/hommutant": {
+    "nom": "sculptures/hommutant",
+    "source": "recu/creationsbendigo-recu/ouverture-eclaire-songe-2.jpg",
+    "role": "galerie",
+    "alt": "Hommutant : oiseau et visage fondus dans une même pièce de bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "517819db73b8e401",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "47% 48%",
+    "sujet": {
+      "x": 29.4,
+      "y": 12.5,
+      "l": 37.7,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/hommutant-480.webp",
+      "sculptures/hommutant-800.webp",
+      "sculptures/hommutant-1200.webp",
+      "sculptures/hommutant-1500.webp"
+    ],
+    "poids": {
+      "sculptures/hommutant-480.webp": 70038,
+      "sculptures/hommutant-800.webp": 178130,
+      "sculptures/hommutant-1200.webp": 277156,
+      "sculptures/hommutant-1500.webp": 305632
+    },
+    "media": "c.media({ nom: 'sculptures/hommutant', alt: \"Hommutant : oiseau et visage fondus dans une même pièce de bois\", cadrage: '47% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/ouverture-eclaire-songe": {
+    "nom": "sculptures/ouverture-eclaire-songe",
+    "source": "recu/creationsbendigo-recu/ouverture-eclaire-songe.jpg",
+    "role": "galerie",
+    "alt": "Ouverture éclaire d’un songe : deux visages adossés, sculptés dans le bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cfbf49406d985d59",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "43% 31%",
+    "sujet": {
+      "x": 26,
+      "y": 16.6,
+      "l": 34.5,
+      "h": 33.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/ouverture-eclaire-songe-480.webp",
+      "sculptures/ouverture-eclaire-songe-800.webp",
+      "sculptures/ouverture-eclaire-songe-1200.webp",
+      "sculptures/ouverture-eclaire-songe-1500.webp"
+    ],
+    "poids": {
+      "sculptures/ouverture-eclaire-songe-480.webp": 60476,
+      "sculptures/ouverture-eclaire-songe-800.webp": 151854,
+      "sculptures/ouverture-eclaire-songe-1200.webp": 293800,
+      "sculptures/ouverture-eclaire-songe-1500.webp": 299252
+    },
+    "media": "c.media({ nom: 'sculptures/ouverture-eclaire-songe', alt: \"Ouverture éclaire d’un songe : deux visages adossés, sculptés dans le bois\", cadrage: '43% 31%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/ouverture-eclaire-songe-avant": {
+    "nom": "sculptures/ouverture-eclaire-songe-avant",
+    "source": "recu/creationsbendigo-recu/ouverture-eclaire-songe-3.jpg",
+    "role": "galerie",
+    "alt": "La même pièce avant la sculpture : un tronc brut debout sur l’herbe",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ab65d53772ed2003",
+    "ratio": "1349:1465",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "44% 39%",
+    "sujet": {
+      "x": 23.5,
+      "y": 14.7,
+      "l": 35.3,
+      "h": 47.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1349,
+      "height": 1465,
+      "source": [
+        1349,
+        1465
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/ouverture-eclaire-songe-avant-480.webp",
+      "sculptures/ouverture-eclaire-songe-avant-800.webp",
+      "sculptures/ouverture-eclaire-songe-avant-1200.webp"
+    ],
+    "poids": {
+      "sculptures/ouverture-eclaire-songe-avant-480.webp": 69090,
+      "sculptures/ouverture-eclaire-songe-avant-800.webp": 174616,
+      "sculptures/ouverture-eclaire-songe-avant-1200.webp": 263854
+    },
+    "media": "c.media({ nom: 'sculptures/ouverture-eclaire-songe-avant', alt: \"La même pièce avant la sculpture : un tronc brut debout sur l’herbe\", cadrage: '44% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1349 / 1465' })"
+  },
+  "sculptures/harmonie-aquatique": {
+    "nom": "sculptures/harmonie-aquatique",
+    "source": "recu/creationsbendigo-recu/harmonie-aquatique-feu.jpg",
+    "role": "galerie",
+    "alt": "Harmonie aquatique du feu : dauphins blancs au-dessus d’un masque",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "aecec97da0aa6543",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "49% 42%",
+    "sujet": {
+      "x": 34,
+      "y": 1.3,
+      "l": 29,
+      "h": 92.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/harmonie-aquatique-480.webp",
+      "sculptures/harmonie-aquatique-800.webp",
+      "sculptures/harmonie-aquatique-1200.webp",
+      "sculptures/harmonie-aquatique-1500.webp"
+    ],
+    "poids": {
+      "sculptures/harmonie-aquatique-480.webp": 53194,
+      "sculptures/harmonie-aquatique-800.webp": 117784,
+      "sculptures/harmonie-aquatique-1200.webp": 207810,
+      "sculptures/harmonie-aquatique-1500.webp": 285616
+    },
+    "media": "c.media({ nom: 'sculptures/harmonie-aquatique', alt: \"Harmonie aquatique du feu : dauphins blancs au-dessus d’un masque\", cadrage: '49% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/elle-drag-sagesse": {
+    "nom": "sculptures/elle-drag-sagesse",
+    "source": "recu/creationsbendigo-recu/elle-drag-sagesse-met.jpg",
+    "role": "galerie",
+    "alt": "Elle drag la sagesse et met la connaissance à je-nous : totem à l’aigle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "508fb53d7c2f2142",
+    "ratio": "1500:2000",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "46% 35%",
+    "sujet": {
+      "x": 18.8,
+      "y": 12.4,
+      "l": 54.1,
+      "h": 75.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/elle-drag-sagesse-480.webp",
+      "sculptures/elle-drag-sagesse-800.webp",
+      "sculptures/elle-drag-sagesse-1200.webp",
+      "sculptures/elle-drag-sagesse-1500.webp"
+    ],
+    "poids": {
+      "sculptures/elle-drag-sagesse-480.webp": 58620,
+      "sculptures/elle-drag-sagesse-800.webp": 149536,
+      "sculptures/elle-drag-sagesse-1200.webp": 305246,
+      "sculptures/elle-drag-sagesse-1500.webp": 286038
+    },
+    "media": "c.media({ nom: 'sculptures/elle-drag-sagesse', alt: \"Elle drag la sagesse et met la connaissance à je-nous : totem à l’aigle\", cadrage: '46% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1500 / 2000' })"
+  },
+  "sculptures/art-monisme-aquatique": {
+    "nom": "sculptures/art-monisme-aquatique",
+    "source": "recu/creationsbendigo-recu/art-monisme-aquatique.jpg",
+    "role": "galerie",
+    "alt": "Art-monisme aquatique : grande sculpture musicale, guitare et sirène, à côté du sculpteur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "694cf5c137e25b00",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "69% 44%",
+    "sujet": {
+      "x": 61.7,
+      "y": 27.7,
+      "l": 17.4,
+      "h": 69.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/art-monisme-aquatique-480.webp",
+      "sculptures/art-monisme-aquatique-800.webp",
+      "sculptures/art-monisme-aquatique-1200.webp",
+      "sculptures/art-monisme-aquatique-1500.webp"
+    ],
+    "poids": {
+      "sculptures/art-monisme-aquatique-480.webp": 45036,
+      "sculptures/art-monisme-aquatique-800.webp": 113096,
+      "sculptures/art-monisme-aquatique-1200.webp": 229522,
+      "sculptures/art-monisme-aquatique-1500.webp": 261628
+    },
+    "media": "c.media({ nom: 'sculptures/art-monisme-aquatique', alt: \"Art-monisme aquatique : grande sculpture musicale, guitare et sirène, à côté du sculpteur\", cadrage: '69% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/envolee-litteraire": {
+    "nom": "sculptures/envolee-litteraire",
+    "source": "recu/creationsbendigo-recu/envolee-literaire.png",
+    "role": "galerie",
+    "alt": "Envolée littéraire : banc sculpté entre deux totems, le sculpteur assis au milieu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9128df7c105436bf",
+    "ratio": "2000:1600",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "29% 46%",
+    "sujet": {
+      "x": 32.8,
+      "y": 38.3,
+      "l": 28.5,
+      "h": 61.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1600,
+      "source": [
+        2000,
+        1600
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/envolee-litteraire-480.webp",
+      "sculptures/envolee-litteraire-800.webp",
+      "sculptures/envolee-litteraire-1200.webp",
+      "sculptures/envolee-litteraire-1500.webp"
+    ],
+    "poids": {
+      "sculptures/envolee-litteraire-480.webp": 43594,
+      "sculptures/envolee-litteraire-800.webp": 103712,
+      "sculptures/envolee-litteraire-1200.webp": 191152,
+      "sculptures/envolee-litteraire-1500.webp": 259960
+    },
+    "media": "c.media({ nom: 'sculptures/envolee-litteraire', alt: \"Envolée littéraire : banc sculpté entre deux totems, le sculpteur assis au milieu\", cadrage: '29% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1600' })"
+  },
+  "sculptures/citrouille": {
+    "nom": "sculptures/citrouille",
+    "source": "recu/creationsbendigo-recu/citrouille-st-faustin-2019.jpg",
+    "role": "galerie",
+    "alt": "Citrouille sculptée d’un visage, Saint-Faustin, 2019",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c4a59a1dc33af9bb",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "55% 43%",
+    "sujet": {
+      "x": 29.1,
+      "y": 8.8,
+      "l": 53.9,
+      "h": 68.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/citrouille-480.webp",
+      "sculptures/citrouille-800.webp",
+      "sculptures/citrouille-1200.webp",
+      "sculptures/citrouille-1500.webp"
+    ],
+    "poids": {
+      "sculptures/citrouille-480.webp": 22242,
+      "sculptures/citrouille-800.webp": 49154,
+      "sculptures/citrouille-1200.webp": 86838,
+      "sculptures/citrouille-1500.webp": 119078
+    },
+    "media": "c.media({ nom: 'sculptures/citrouille', alt: \"Citrouille sculptée d’un visage, Saint-Faustin, 2019\", cadrage: '55% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/demonstration": {
+    "nom": "sculptures/demonstration",
+    "source": "recu/creationsbendigo-recu/stratos-roi-pizza.jpg",
+    "role": "galerie",
+    "alt": "Démonstration de sculpture devant un restaurant, le public autour du sculpteur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8d2bfb7313314094",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "68% 43%",
+    "sujet": {
+      "x": 38.4,
+      "y": 22.1,
+      "l": 60.1,
+      "h": 68.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/demonstration-480.webp",
+      "sculptures/demonstration-800.webp",
+      "sculptures/demonstration-1200.webp",
+      "sculptures/demonstration-1500.webp"
+    ],
+    "poids": {
+      "sculptures/demonstration-480.webp": 26210,
+      "sculptures/demonstration-800.webp": 61674,
+      "sculptures/demonstration-1200.webp": 118962,
+      "sculptures/demonstration-1500.webp": 165734
+    },
+    "media": "c.media({ nom: 'sculptures/demonstration', alt: \"Démonstration de sculpture devant un restaurant, le public autour du sculpteur\", cadrage: '68% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/banc-fee": {
+    "nom": "sculptures/banc-fee",
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-2.jpg",
+    "role": "galerie",
+    "alt": "Banc de jardin : une fée assise sur un champignon, au bout d’un banc en forme de feuille",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "83c195b91086512f",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "48% 35%",
+    "sujet": {
+      "x": 26.3,
+      "y": 6.4,
+      "l": 52.1,
+      "h": 81.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/banc-fee-480.webp",
+      "sculptures/banc-fee-800.webp",
+      "sculptures/banc-fee-1200.webp",
+      "sculptures/banc-fee-1500.webp"
+    ],
+    "poids": {
+      "sculptures/banc-fee-480.webp": 53178,
+      "sculptures/banc-fee-800.webp": 139412,
+      "sculptures/banc-fee-1200.webp": 289516,
+      "sculptures/banc-fee-1500.webp": 288256
+    },
+    "media": "c.media({ nom: 'sculptures/banc-fee', alt: \"Banc de jardin : une fée assise sur un champignon, au bout d’un banc en forme de feuille\", cadrage: '48% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/banc-chat": {
+    "nom": "sculptures/banc-chat",
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-20.jpg",
+    "role": "galerie",
+    "alt": "Chat sculpté assis dans un fauteuil de bois, vu de près",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f2d04e9d52ddcf9c",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "54% 45%",
+    "sujet": {
+      "x": 12.2,
+      "y": 7.1,
+      "l": 87.6,
+      "h": 92.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/banc-chat-480.webp",
+      "sculptures/banc-chat-800.webp",
+      "sculptures/banc-chat-1200.webp",
+      "sculptures/banc-chat-1500.webp"
+    ],
+    "poids": {
+      "sculptures/banc-chat-480.webp": 18082,
+      "sculptures/banc-chat-800.webp": 35418,
+      "sculptures/banc-chat-1200.webp": 60592,
+      "sculptures/banc-chat-1500.webp": 84538
+    },
+    "media": "c.media({ nom: 'sculptures/banc-chat', alt: \"Chat sculpté assis dans un fauteuil de bois, vu de près\", cadrage: '54% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/banc-aigle": {
+    "nom": "sculptures/banc-aigle",
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-27.jpg",
+    "role": "galerie",
+    "alt": "Banc dont un pied est une tête d’aigle aux serres posées au sol",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dbc7b2916887ce1f",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "43% 39%",
+    "sujet": {
+      "x": 1.6,
+      "y": 13.1,
+      "l": 86.4,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/banc-aigle-480.webp",
+      "sculptures/banc-aigle-800.webp",
+      "sculptures/banc-aigle-1200.webp",
+      "sculptures/banc-aigle-1500.webp"
+    ],
+    "poids": {
+      "sculptures/banc-aigle-480.webp": 39896,
+      "sculptures/banc-aigle-800.webp": 108400,
+      "sculptures/banc-aigle-1200.webp": 227584,
+      "sculptures/banc-aigle-1500.webp": 269322
+    },
+    "media": "c.media({ nom: 'sculptures/banc-aigle', alt: \"Banc dont un pied est une tête d’aigle aux serres posées au sol\", cadrage: '43% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/banc-guitare": {
+    "nom": "sculptures/banc-guitare",
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-16.jpg",
+    "role": "galerie",
+    "alt": "Banc en forme de guitare appuyé contre une botte sculptée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d38333d401cd5cfe",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "44% 46%",
+    "sujet": {
+      "x": 18.2,
+      "y": 5.1,
+      "l": 49.9,
+      "h": 91.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/banc-guitare-480.webp",
+      "sculptures/banc-guitare-800.webp",
+      "sculptures/banc-guitare-1200.webp",
+      "sculptures/banc-guitare-1500.webp"
+    ],
+    "poids": {
+      "sculptures/banc-guitare-480.webp": 42656,
+      "sculptures/banc-guitare-800.webp": 115944,
+      "sculptures/banc-guitare-1200.webp": 250384,
+      "sculptures/banc-guitare-1500.webp": 297904
+    },
+    "media": "c.media({ nom: 'sculptures/banc-guitare', alt: \"Banc en forme de guitare appuyé contre une botte sculptée\", cadrage: '44% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/banc-castors": {
+    "nom": "sculptures/banc-castors",
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-33.jpg",
+    "role": "galerie",
+    "alt": "Banc porté par deux castors sculptés",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "98b95c2ae026c752",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "52% 49%",
+    "sujet": {
+      "x": 8.6,
+      "y": 23.6,
+      "l": 83.4,
+      "h": 67.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/banc-castors-480.webp",
+      "sculptures/banc-castors-800.webp",
+      "sculptures/banc-castors-1200.webp",
+      "sculptures/banc-castors-1500.webp"
+    ],
+    "poids": {
+      "sculptures/banc-castors-480.webp": 63112,
+      "sculptures/banc-castors-800.webp": 181652,
+      "sculptures/banc-castors-1200.webp": 295802,
+      "sculptures/banc-castors-1500.webp": 446304
+    },
+    "media": "c.media({ nom: 'sculptures/banc-castors', alt: \"Banc porté par deux castors sculptés\", cadrage: '52% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/banc-grenouille": {
+    "nom": "sculptures/banc-grenouille",
+    "source": "recu/creationsbendigo-recu/bancs-jardin-creationsbendigo-49.jpg",
+    "role": "galerie",
+    "alt": "Banc vert et orangé, une grenouille sculptée au bout",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b71c60b59b8d0113",
+    "ratio": "1600:1200",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "48% 35%",
+    "sujet": {
+      "x": 22.5,
+      "y": 4.2,
+      "l": 68.8,
+      "h": 87
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1200,
+      "source": [
+        1600,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/banc-grenouille-480.webp",
+      "sculptures/banc-grenouille-800.webp",
+      "sculptures/banc-grenouille-1200.webp",
+      "sculptures/banc-grenouille-1500.webp"
+    ],
+    "poids": {
+      "sculptures/banc-grenouille-480.webp": 39102,
+      "sculptures/banc-grenouille-800.webp": 96574,
+      "sculptures/banc-grenouille-1200.webp": 165178,
+      "sculptures/banc-grenouille-1500.webp": 216402
+    },
+    "media": "c.media({ nom: 'sculptures/banc-grenouille', alt: \"Banc vert et orangé, une grenouille sculptée au bout\", cadrage: '48% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1600 / 1200' })"
+  },
+  "sculptures/neige-eglise": {
+    "nom": "sculptures/neige-eglise",
+    "source": "recu/creationsbendigo-recu/eglise-st-adolphe-3.jpg",
+    "role": "galerie",
+    "alt": "Deux figures de neige adossées, devant une église, au soleil d’hiver",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "337a4a4161a9d523",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 25.6,
+      "y": 14,
+      "l": 47.9,
+      "h": 72
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige-eglise-480.webp",
+      "sculptures/neige-eglise-800.webp",
+      "sculptures/neige-eglise-1200.webp",
+      "sculptures/neige-eglise-1500.webp"
+    ],
+    "poids": {
+      "sculptures/neige-eglise-480.webp": 12960,
+      "sculptures/neige-eglise-800.webp": 28560,
+      "sculptures/neige-eglise-1200.webp": 49916,
+      "sculptures/neige-eglise-1500.webp": 69908
+    },
+    "media": "c.media({ nom: 'sculptures/neige-eglise', alt: \"Deux figures de neige adossées, devant une église, au soleil d’hiver\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/neige-fauteuil": {
+    "nom": "sculptures/neige-fauteuil",
+    "source": "recu/creationsbendigo-recu/ste-agathe-projet-groupe.jpg",
+    "role": "galerie",
+    "alt": "Fauteuil de neige sculpté, un dragon en dossier, sur un lac gelé",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "21c67757df23a1b3",
+    "ratio": "2000:1500",
+    "largeurs": [
+      480,
+      800,
+      1200,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "45% 44%",
+    "sujet": {
+      "x": 28.9,
+      "y": 10.9,
+      "l": 45.7,
+      "h": 74.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige-fauteuil-480.webp",
+      "sculptures/neige-fauteuil-800.webp",
+      "sculptures/neige-fauteuil-1200.webp",
+      "sculptures/neige-fauteuil-1500.webp"
+    ],
+    "poids": {
+      "sculptures/neige-fauteuil-480.webp": 10468,
+      "sculptures/neige-fauteuil-800.webp": 21326,
+      "sculptures/neige-fauteuil-1200.webp": 37528,
+      "sculptures/neige-fauteuil-1500.webp": 53090
+    },
+    "media": "c.media({ nom: 'sculptures/neige-fauteuil', alt: \"Fauteuil de neige sculpté, un dragon en dossier, sur un lac gelé\", cadrage: '45% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2000 / 1500' })"
+  },
+  "sculptures/neige/dragon": {
+    "nom": "sculptures/neige/dragon",
+    "source": "recu/creationsbendigo-recu/dragon-sutton-03.jpg",
+    "role": "vignette",
+    "alt": "Tête de dragon sculptée dans la neige",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "21cb56146bad6435",
+    "ratio": "640:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 12.3,
+      "y": 7.5,
+      "l": 82.8,
+      "h": 74
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.61,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 640,
+      "height": 480,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige/dragon-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/dragon-480.webp": 11788
+    },
+    "media": "c.media({ nom: 'sculptures/neige/dragon', alt: \"Tête de dragon sculptée dans la neige\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '640 / 480' })"
+  },
+  "sculptures/neige/ours-fauteuil": {
+    "nom": "sculptures/neige/ours-fauteuil",
+    "source": "recu/creationsbendigo-recu/ste-agathe-projet-groupe-2.jpg",
+    "role": "vignette",
+    "alt": "Ours polaire assis sur un fauteuil de neige",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "681fc3aebcff0c50",
+    "ratio": "640:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "48% 37%",
+    "sujet": {
+      "x": 19.3,
+      "y": 7.5,
+      "l": 57.1,
+      "h": 85.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 640,
+      "height": 480,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige/ours-fauteuil-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/ours-fauteuil-480.webp": 26042
+    },
+    "media": "c.media({ nom: 'sculptures/neige/ours-fauteuil', alt: \"Ours polaire assis sur un fauteuil de neige\", cadrage: '48% 37%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '640 / 480' })"
+  },
+  "sculptures/neige/cheval-aile": {
+    "nom": "sculptures/neige/cheval-aile",
+    "source": "recu/creationsbendigo-recu/cheval-tres-ailes-01.jpg",
+    "role": "vignette",
+    "alt": "Cheval ailé couché, sculpté dans la neige, la nuit",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "4915af1769fe1fa9",
+    "ratio": "640:460",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "85% 27%",
+    "sujet": {
+      "x": 73.3,
+      "y": 8.2,
+      "l": 22.8,
+      "h": 77.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.63,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 640,
+      "height": 460,
+      "source": [
+        640,
+        460
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige/cheval-aile-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/cheval-aile-480.webp": 8084
+    },
+    "media": "c.media({ nom: 'sculptures/neige/cheval-aile', alt: \"Cheval ailé couché, sculpté dans la neige, la nuit\", cadrage: '85% 27%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '640 / 460' })"
+  },
+  "sculptures/neige/dragon-chinois": {
+    "nom": "sculptures/neige/dragon-chinois",
+    "source": "recu/creationsbendigo-recu/dragon-chinois-01.jpg",
+    "role": "vignette",
+    "alt": "Dragon chinois sculpté dans la neige",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "4ddd99be87b2d207",
+    "ratio": "480:581",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "51% 39%",
+    "sujet": {
+      "x": 8.7,
+      "y": 5.8,
+      "l": 81.4,
+      "h": 84.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 480,
+      "height": 581,
+      "source": [
+        480,
+        581
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "480 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige/dragon-chinois-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/dragon-chinois-480.webp": 15494
+    },
+    "media": "c.media({ nom: 'sculptures/neige/dragon-chinois', alt: \"Dragon chinois sculpté dans la neige\", cadrage: '51% 39%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '480 / 581' })"
+  },
+  "sculptures/neige/viking": {
+    "nom": "sculptures/neige/viking",
+    "source": "recu/creationsbendigo-recu/dragodin-viking-05.jpg",
+    "role": "vignette",
+    "alt": "Guerrier viking sculpté dans la neige",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "8fda4a8bef6728ac",
+    "ratio": "430:640",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "52% 44%",
+    "sujet": {
+      "x": 4.7,
+      "y": 5.1,
+      "l": 91.2,
+      "h": 90
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 430,
+      "height": 640,
+      "source": [
+        430,
+        640
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "430 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,12 fois (source de 430 px après recadrage)"
+    ],
+    "fichiers": [
+      "sculptures/neige/viking-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/viking-480.webp": 12012
+    },
+    "media": "c.media({ nom: 'sculptures/neige/viking', alt: \"Guerrier viking sculpté dans la neige\", cadrage: '52% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '430 / 640' })"
+  },
+  "sculptures/neige/libellule": {
+    "nom": "sculptures/neige/libellule",
+    "source": "recu/creationsbendigo-recu/mm-libellule-01.jpg",
+    "role": "vignette",
+    "alt": "Libellule posée sur un bloc de neige, la nuit",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "a948c7a716c95eb8",
+    "ratio": "566:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 4,
+      "y": 8.9,
+      "l": 93.3,
+      "h": 91.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 566,
+      "height": 480,
+      "source": [
+        566,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "566 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige/libellule-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/libellule-480.webp": 10634
+    },
+    "media": "c.media({ nom: 'sculptures/neige/libellule', alt: \"Libellule posée sur un bloc de neige, la nuit\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '566 / 480' })"
+  },
+  "sculptures/neige/gargouille": {
+    "nom": "sculptures/neige/gargouille",
+    "source": "recu/creationsbendigo-recu/venue-etoiles-02.jpg",
+    "role": "vignette",
+    "alt": "Gargouille ailée sculptée dans la neige, le sculpteur à côté",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "e2d6e1d4d2bb62d3",
+    "ratio": "457:640",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "63% 47%",
+    "sujet": {
+      "x": 52.4,
+      "y": 30.9,
+      "l": 38.9,
+      "h": 66.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 457,
+      "height": 640,
+      "source": [
+        457,
+        640
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "457 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,05 fois (source de 457 px après recadrage)"
+    ],
+    "fichiers": [
+      "sculptures/neige/gargouille-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/gargouille-480.webp": 22340
+    },
+    "media": "c.media({ nom: 'sculptures/neige/gargouille', alt: \"Gargouille ailée sculptée dans la neige, le sculpteur à côté\", cadrage: '63% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '457 / 640' })"
+  },
+  "sculptures/neige/festival": {
+    "nom": "sculptures/neige/festival",
+    "source": "recu/creationsbendigo-recu/festi-neige-ste-agathe.jpg",
+    "role": "vignette",
+    "alt": "Sculpture de neige devant le panneau d’un festival d’hiver",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "850ba84e38d71b11",
+    "ratio": "581:480",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "36% 66%",
+    "sujet": {
+      "x": 28.3,
+      "y": 54.8,
+      "l": 15.3,
+      "h": 45
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.52,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 581,
+      "height": 480,
+      "source": [
+        581,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "581 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sculptures/neige/festival-480.webp"
+    ],
+    "poids": {
+      "sculptures/neige/festival-480.webp": 17802
+    },
+    "media": "c.media({ nom: 'sculptures/neige/festival', alt: \"Sculpture de neige devant le panneau d’un festival d’hiver\", cadrage: '36% 66%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '581 / 480' })"
+  },
+  "benoit": {
+    "nom": "benoit",
+    "source": "recu/retouche/benoit.png",
+    "role": "ouverture",
+    "alt": "Benoit Sauvageau, dit Bendigo, casquette et collier de bois, sourire en coin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1008aed463c4337f",
+    "ratio": "1500:1590",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "46% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1590,
+      "source": [
+        1500,
+        1590
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "benoit-640.webp",
+      "benoit-1000.webp",
+      "benoit-1400.webp"
+    ],
+    "poids": {
+      "benoit-640.webp": 85756,
+      "benoit-1000.webp": 205372,
+      "benoit-1400.webp": 263332
+    },
+    "media": "c.media({ nom: 'benoit', alt: \"Benoit Sauvageau, dit Bendigo, casquette et collier de bois, sourire en coin\", cadrage: '46% 52%', sizes: '100vw', priorite: true })"
+  },
+  "grok/souche-attente": {
+    "nom": "grok/souche-attente",
+    "source": "recu/grok/souche-attente.png",
+    "role": "section-fond",
+    "alt": "Une haute souche fraîchement coupée dans une clairière, des copeaux au pied",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1acc3ad4ca55b01e",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 49%"
+    },
+    "cadrage": "58% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 76,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "grok/souche-attente-640.webp",
+      "grok/souche-attente-1280.webp",
+      "grok/souche-attente-1600.webp",
+      "grok/souche-attente-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/souche-attente-640.webp": 36998,
+      "grok/souche-attente-1280.webp": 97004,
+      "grok/souche-attente-1600.webp": 126072,
+      "grok/souche-attente-mobile-640.webp": 82096
+    },
+    "media": "c.media({ nom: 'grok/souche-attente', alt: \"Une haute souche fraîchement coupée dans une clairière, des copeaux au pied\", cadrage: '58% 50%', cadrageMobile: '50% 49%', sizes: '100vw' })"
+  },
+  "grok/neige-bloc": {
+    "nom": "grok/neige-bloc",
+    "source": "recu/grok/neige-bloc.png",
+    "role": "section-fond",
+    "alt": "Un grand bloc de neige tassée, marqué de coups de pelle, à l’heure bleue",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "dc2ec59794611af9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 54%"
+    },
+    "cadrage": "64% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 99.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 130,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "grok/neige-bloc-640.webp",
+      "grok/neige-bloc-1280.webp",
+      "grok/neige-bloc-1600.webp",
+      "grok/neige-bloc-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/neige-bloc-640.webp": 29388,
+      "grok/neige-bloc-1280.webp": 75916,
+      "grok/neige-bloc-1600.webp": 100164,
+      "grok/neige-bloc-mobile-640.webp": 58384
+    },
+    "media": "c.media({ nom: 'grok/neige-bloc', alt: \"Un grand bloc de neige tassée, marqué de coups de pelle, à l’heure bleue\", cadrage: '64% 50%', cadrageMobile: '50% 54%', sizes: '100vw' })"
+  },
+  "grok/salon-chalet": {
+    "nom": "grok/salon-chalet",
+    "source": "recu/grok/salon-chalet.png",
+    "role": "section-fond",
+    "alt": "Salon de chalet lumineux, mur de planches clair au-dessus d’un canapé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d7d1b4e2733e988d",
+    "ratio": "1600:1074",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/salon-chalet-640.webp",
+      "grok/salon-chalet-1280.webp",
+      "grok/salon-chalet-1600.webp"
+    ],
+    "poids": {
+      "grok/salon-chalet-640.webp": 35684,
+      "grok/salon-chalet-1280.webp": 115660,
+      "grok/salon-chalet-1600.webp": 159308
+    },
+    "media": "c.media({ nom: 'grok/salon-chalet', alt: \"Salon de chalet lumineux, mur de planches clair au-dessus d’un canapé\", cadrage: '52% 64%', sizes: '100vw' })"
+  },
+  "grok/atelier-hiver": {
+    "nom": "grok/atelier-hiver",
+    "source": "recu/grok/atelier-hiver.png",
+    "role": "ouverture",
+    "alt": "Petit atelier de bois dans la forêt enneigée, une fenêtre éclairée au crépuscule",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "60a36c41082b093b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 59%"
+    },
+    "cadrage": "61% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 92.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 48,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-hiver-640.webp",
+      "grok/atelier-hiver-1280.webp",
+      "grok/atelier-hiver-1920.webp",
+      "grok/atelier-hiver-mobile-640.webp",
+      "grok/atelier-hiver-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/atelier-hiver-640.webp": 47590,
+      "grok/atelier-hiver-1280.webp": 134298,
+      "grok/atelier-hiver-1920.webp": 207732,
+      "grok/atelier-hiver-mobile-640.webp": 77290,
+      "grok/atelier-hiver-mobile-1080.webp": 144156
+    },
+    "media": "c.media({ nom: 'grok/atelier-hiver', alt: \"Petit atelier de bois dans la forêt enneigée, une fenêtre éclairée au crépuscule\", cadrage: '61% 51%', cadrageMobile: '50% 59%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.png",
+    "role": "404",
+    "alt": "Une bûche sciée de travers, des copeaux autour",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f7c6748c1c75cb39",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "53% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/page-404-640.webp",
+      "grok/page-404-1280.webp",
+      "grok/page-404-1920.webp"
+    ],
+    "poids": {
+      "grok/page-404-640.webp": 64602,
+      "grok/page-404-1280.webp": 172902,
+      "grok/page-404-1920.webp": 268650
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Une bûche sciée de travers, des copeaux autour\", cadrage: '53% 50%', sizes: '100vw' })"
+  }
+}

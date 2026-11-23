@@ -1,0 +1,5 @@
+[
+  { "cle": "bois", "titre": "Sculptures sur bois", "nombre": 82, "texte": "Aigles, visages, bancs : le bois taillé à la tronçonneuse.", "image": "toiles/cliff-eagle-egg-mind", "ratio": "899 / 1740" },
+  { "cle": "neige", "titre": "Sculptures sur neige", "nombre": 18, "texte": "Dragons, mains, figures de carnaval : la neige sculptée, gardée en image.", "image": "toiles/divinementmains-nb", "ratio": "1218 / 2000" },
+  { "cle": "tableaux", "titre": "Tableaux et murales", "nombre": 28, "texte": "Pointillisme, Q-tips et crayons gel, en noir et blanc.", "image": "toiles/re-invention-tour-nb", "ratio": "1654 / 2000" }
+]
